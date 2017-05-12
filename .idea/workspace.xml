@@ -16,8 +16,19 @@
         <entry file="file://$PROJECT_DIR$/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
-              <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
-              <folding />
+              <caret line="96" column="24" lean-forward="false" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+              <folding>
+                <marker date="1494620263596" expanded="true" signature="3373:3640" ph="..." />
+                <marker date="1494620263596" expanded="true" signature="3373:4196" ph="..." />
+                <marker date="1494620263596" expanded="false" signature="3402:3415" ph="..." />
+                <marker date="1494620263596" expanded="true" signature="3441:3621" ph="..." />
+                <marker date="1494620263596" expanded="true" signature="3519:3591" ph="..." />
+                <marker date="1494620263596" expanded="true" signature="3685:4181" ph="..." />
+                <marker date="1494620263596" expanded="true" signature="3695:4162" ph="..." />
+                <marker date="1494620263596" expanded="true" signature="3721:4139" ph="..." />
+                <marker date="1494620263596" expanded="true" signature="3749:3778" ph="..." />
+                <marker date="1494620263596" expanded="true" signature="3801:4083" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -274,8 +285,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -347,8 +357,19 @@
     <entry file="file://$PROJECT_DIR$/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
-          <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
-          <folding />
+          <caret line="96" column="24" lean-forward="false" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+          <folding>
+            <marker date="1494620263596" expanded="true" signature="3373:3640" ph="..." />
+            <marker date="1494620263596" expanded="true" signature="3373:4196" ph="..." />
+            <marker date="1494620263596" expanded="false" signature="3402:3415" ph="..." />
+            <marker date="1494620263596" expanded="true" signature="3441:3621" ph="..." />
+            <marker date="1494620263596" expanded="true" signature="3519:3591" ph="..." />
+            <marker date="1494620263596" expanded="true" signature="3685:4181" ph="..." />
+            <marker date="1494620263596" expanded="true" signature="3695:4162" ph="..." />
+            <marker date="1494620263596" expanded="true" signature="3721:4139" ph="..." />
+            <marker date="1494620263596" expanded="true" signature="3749:3778" ph="..." />
+            <marker date="1494620263596" expanded="true" signature="3801:4083" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
