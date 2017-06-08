@@ -32,15 +32,15 @@
                 <ul class="media-list">
                        <!--here we have to access the menuCtrl.dishes to get access to the dishes object-->
                     <li class="media">
-                        <div class="media-left">
+                        <div ng-class="class">
                             <a ng-href={{sample.url}}>
                             <img style="width: 150px" class="media-object img-thumbnail img-responsive"
                              ng-src={{sample.image}} alt="Uthappizza"></a>
-
+                            <a ng-show="showForm2" ng-href={{sample.url2}}>Hey</a>
                         </div>
                         <div class="media-right">
-                            <h2 class="media-heading">{{sample.name}}
-                             </h2>
+                            <h2 class="media-heading"><a ng-href={{sample.url}}>{{sample.name}}
+                            </a></h2>
                             <p>{{sample.description}}</p>
                             <!--<p>Comment: {{dish.comment}}</p>-->
                             <!--<p>Type your comment:-->
