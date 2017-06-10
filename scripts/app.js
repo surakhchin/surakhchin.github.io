@@ -88,8 +88,7 @@ angular.module('confusionApp', ['ui.router'])
                         controller  : 'MenuController'
                     },
                     'content2@': {
-                        templateUrl : 'views/portfolio.html',
-                        controller  : 'JumboController'
+                        templateUrl : null
                     },
                     'content3@': {
                         templateUrl : null
