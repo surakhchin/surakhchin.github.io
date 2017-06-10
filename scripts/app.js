@@ -51,11 +51,10 @@ angular.module('confusionApp', ['ui.router'])
                         controller  : 'AboutController'                  
                     },
                     'content2@': {
-                        templateUrl : '',
-                        controller  : ''
+                        templateUrl : null,
                     },
                     'content3@': {
-                        templateUrl : '',
+                        templateUrl : null,
                         controller  : ''
                     }
 
@@ -71,12 +70,10 @@ angular.module('confusionApp', ['ui.router'])
                         controller  : 'ContactController'                  
                     },
                     'content2@': {
-                        templateUrl : '',
-                        controller  : ''
+                        templateUrl : null
                     },
                     'content3@': {
-                        templateUrl : '',
-                        controller  : ''
+                        templateUrl : null
                     }
 
                 }
@@ -95,8 +92,7 @@ angular.module('confusionApp', ['ui.router'])
                         controller  : 'JumboController'
                     },
                     'content3@': {
-                        templateUrl : '',
-                        controller  : ''
+                        templateUrl : null
                     }
                 }
             })
@@ -146,8 +142,7 @@ angular.module('confusionApp', ['ui.router'])
                         controller  : 'JumboController'
                     },
                     'content3@': {
-                        templateUrl : '',
-                        controller  : ''
+                        templateUrl : null
                     }
                 }
             });
