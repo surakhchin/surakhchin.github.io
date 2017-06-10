@@ -77,6 +77,15 @@ var samples=[
                         },
                         {
                           _id:2,
+                          name:'Menu',
+                          image: 'images/menu.PNG',
+                          url: 'https://surakhchin.github.io/conFusion/#/menu',
+                          date: '2/30/2017',
+                          description:'Menu app is the featured page of conFusion site. It is an Angular page that uses bootstrap tabs to display menu dishes. Clicking on each dish redirects to a dish detail template were you can read and submit dish comments'
+
+                        },
+                        {
+                          _id:3,
                           name:'Budgets',
                           image: 'images/budgets.PNG',
                           url: 'https://surakhchin.github.io/budgets2',
@@ -84,11 +93,11 @@ var samples=[
                           description:'Simple budgets app build for an open source project. This app pulls custom data from a RESTful API server. Supports GET, UPDATE, DELETE, ADD operations on the Campaign Budgets Object.'
                         },
                         {
-                          _id:3,
-                          name:'Form',
+                          _id:4,
+                          name:'Forms',
                           image: 'images/form.PNG',
                           url: 'https://surakhchin.github.io/form',
-                          date: '5/30/2017',
+                          date: '6/1/2016',
                           description:'Sample forms made with HTML5, jQuery ajax, and custom JavaScript',
                           url2: 'https://surakhchin.github.io/form2'
                         }

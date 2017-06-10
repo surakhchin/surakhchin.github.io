@@ -41,7 +41,7 @@ angular.module('confusionApp')
 
 			$scope.showForm2 = false;
 
-			if ($scope.sample._id === 3) {
+			if ($scope.sample._id === 4) {
 
 				$scope.showForm2 = true;
 			}
