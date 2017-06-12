@@ -200,7 +200,7 @@ angular.module('confusionApp', ['ui.router'])
 
             // route for the dishdetail page
             .state('app.dishdetails', {
-                url: 'menu/:id',
+                url: 'menu#dishdetailid/:id',
                 views: {
                     'content@': {
                         templateUrl : 'views/dishdetail.html',

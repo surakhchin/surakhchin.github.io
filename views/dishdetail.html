@@ -1,5 +1,5 @@
 
-    <div class="container" >
+    <div id="dishdetailid" class="container" >
         <div class="row row-content" ng-controller="DishDetailController">
             <button class="btn btn-xs btn-primary pull-right"
                     type="button" ui-sref="app.menu">
@@ -10,7 +10,7 @@
                        <!--here we have to access the menuCtrl.dishes to get access to the dishes object-->
                     <li class="media">
                         <div ng-class="class">
-                            <a ui-sref="app.menu">
+                            <a ui-sref="app.menuid">
                             <img class="media-object img-thumbnail"
                              ng-src={{dish.image}} alt="Uthappizza">
                             </a>
