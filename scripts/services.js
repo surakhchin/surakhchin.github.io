@@ -79,7 +79,7 @@ var samples=[
                           _id:2,
                           name:'Menu',
                           image: 'images/menu.PNG',
-                          url: 'https://surakhchin.github.io/conFusion/#/menu',
+                          url: 'https://surakhchin.github.io/conFusion/#/menu#menu',
                           date: '2/30/2017',
                           description:'Menu app is the featured page of conFusion site. It is an Angular page that uses bootstrap tabs to display menu dishes. Clicking on each dish redirects to a dish detail template were you can read and submit dish comments'
 
