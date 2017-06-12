@@ -73,6 +73,24 @@ angular.module('confusionApp', ['ui.router'])
                 }
             })
 
+
+           // route for the dishdetail page
+            .state('app.dishdetails', {
+                url: 'menu#dishdetailid/:id',
+                views: {
+                    'content@': {
+                        templateUrl : 'views/dishdetail.html',
+                        controller  : 'DishDetailController'
+                   },
+                    'content2@': {
+                        templateUrl : null
+                    },
+                    'content3@': {
+                        templateUrl : null
+                    }
+                }
+            })
+
             //-----------------------------------------------
 
 
@@ -196,25 +214,9 @@ angular.module('confusionApp', ['ui.router'])
                         controller  : ''
                     }
                 }
-            })
-
-            // route for the dishdetail page
-            .state('app.dishdetails', {
-                url: 'menu#dishdetailid/:id',
-                views: {
-                    'content@': {
-                        templateUrl : 'views/dishdetail.html',
-                        controller  : 'DishDetailController'
-                   },
-                    'content2@': {
-                        templateUrl : 'views/portfolio.html',
-                        controller  : 'JumboController'
-                    },
-                    'content3@': {
-                        templateUrl : null
-                    }
-                }
             });
+
+
     
         $urlRouterProvider.otherwise('/');
     }])
