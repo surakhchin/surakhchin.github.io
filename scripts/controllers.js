@@ -2,6 +2,94 @@
 
 angular.module('confusionApp')
 
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//                                   DEMO/DEMODETAILS CONTROLLERS	6/13/2017
+
+	.controller('DemoController', ['$scope', 'demoFactory', '$window', function($scope, demoFactory, $window) {
+
+            $scope.tab = 1;
+            $scope.filtText = '';
+            $scope.showDetails = true;
+            $scope.class = "media-top";
+
+
+            $scope.demo= demoFactory.getDemo();
+
+
+            $scope.select = function(setTab) {
+                $scope.tab = setTab;
+
+                if (setTab === 2) {
+                    $scope.filtText = "HTML5";
+                }
+                else if (setTab === 3) {
+                    $scope.filtText = "CSS3";
+                }
+                else if (setTab === 4) {
+                    $scope.filtText = "JavaScript";
+                }
+                else if (setTab === 5) {
+                    $scope.filtText = "AngularJS";
+                }
+                else {
+                    $scope.filtText = "";
+                }
+            };
+
+            $scope.isSelected = function (checkTab) {
+                return ($scope.tab === checkTab);
+            };
+
+            $scope.toggleDetails = function() {
+                $scope.showDetails = !$scope.showDetails;
+            };
+
+            $scope.changeClass = function () {
+
+                if ($scope.number > 500) {
+                    $scope.class = "media-left";
+                    return $scope.class;
+                }
+                else {
+                    $scope.class = "media-top";
+                    return $scope.class;
+                }
+            };
+            $scope.changeClass();
+
+
+        }])
+
+
+	.controller('DemoDetailController', ['$scope', '$stateParams', 'demoFactory', '$window', function($scope, $stateParams, demoFactory, $window) {
+
+            $scope.dem= demoFactory.getDem(parseInt($stateParams.id,10));
+
+            $scope.class = "media-top";
+            $scope.number = $window.innerWidth;
+
+            $scope.changeClass = function () {
+
+                if ($scope.number > 500) {
+                    $scope.class = "media-left media-middle";
+                    return $scope.class;
+                }
+                else {
+                    $scope.class = "media-top";
+                    return $scope.class;
+                }
+            };
+            $scope.changeClass();
+
+
+        }])
+
+
+
+
+
+
+
 	//---------------------------------------------------------------------------------
 			//NEW CODE 6/7/2017
 

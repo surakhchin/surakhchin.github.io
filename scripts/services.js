@@ -6,6 +6,62 @@ angular.module('confusionApp')
         .constant("baseURL","http://localhost:3000/")
         .service('demoFactory', ['$http', 'baseURL', function($http,baseURL) {
 
+
+//---------------------NEW CODE JUNE 13 2017 ADDING DEMO OBJECT TO DEMO------------- PAGE-------------------------------------------------------------------------------
+            var demo=[
+                         {
+                          _id:0,
+                          name:'HTML5',
+                          image: 'images/html5.png',
+                          category: 'HTML5',
+                          link:'https://www.google.com/search?q=html5&rlz=1C1CHBF_enUS742US742&oq=html&aqs=chrome.0.69i59j69i60j69i61j69i60j69i57j69i65.1308j0j7&sourceid=chrome&ie=UTF-8',
+                          info:'info',
+                          description:'The bare back-bone of an internet web page. Lays out the structural foundation of the site.'
+                        },
+                        {
+                          _id:1,
+                          name:'CSS3',
+                          image: 'images/css3.png',
+                          category: 'CSS3',
+                          link:'https://www.google.com/search?num=100&safe=off&rlz=1C1CHBF_enUS742US742&q=css3&oq=css3&gs_l=serp.3..35i39k1l2j0i20k1l2j0j0i131k1j0j0i67k1j0i131k1j0i67k1.12112.12605.0.12754.4.4.0.0.0.0.92.333.4.4.0....0...1.1.64.serp..0.4.333.CsZdd9rmxfI',
+                          info:'info',
+                          description:'Style sheets used to design the html page.'
+                        },
+                        {
+                          _id:2,
+                          name:'JavaScript',
+                          image: 'images/javascript.png',
+                          category: 'JavaScript',
+                          link:'https://www.google.com/search?num=100&safe=off&rlz=1C1CHBF_enUS742US742&q=javascript&oq=javascript&gs_l=serp.3..35i39k1l2j0i67k1l3j0j0i20k1l2j0i67k1l2.23896.24864.0.24981.10.10.0.0.0.0.115.725.7j1.8.0....0...1.1.64.serp..2.8.725...0i131k1.A8q65rp6VlQ',
+                          info:'info',
+                          description:'Programming language of the web. Very versatile and popular.'
+                        },
+                        {
+                          _id:3,
+                          name:'AngularJS',
+                          image: 'images/angular.png',
+                          category: 'AngularJS',
+                          link:'https://www.google.com/search?num=100&safe=off&rlz=1C1CHBF_enUS742US742&q=angularjs&oq=angularjs&gs_l=serp.3..35i39k1l2j0i67k1j0i20k1j0i67k1l6.12606.13477.0.13605.9.9.0.0.0.0.155.993.5j4.9.0....0...1.1.64.serp..0.9.993...0j0i131k1.-uM5Wggwq8U',
+                          info:'info',
+                          description:'A very powerful front end javascript framework. Some of my favorite features supported are Single Page Applications, MVC architecture, and dynamic data binding'
+                        }
+                        ];
+
+
+            this.getDemo = function () {
+                return demo;
+            };
+
+            this.getDem = function (index) {
+
+                return demo[index];
+            };
+
+
+
+
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------
             var skills = {
                 image: 'images/skills.png',
                 front: ['HTML5', 'CSS3', 'Bootstrap','jQuery', 'AngularJS'],

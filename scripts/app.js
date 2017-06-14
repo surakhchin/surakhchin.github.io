@@ -4,14 +4,32 @@ angular.module('confusionApp', ['ui.router'])
 .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
         $stateProvider
 
+            // -----NEW CODE 6/13/2017
+            // route for DemoDetails page
+            .state('app.demodetails', {
+                url: '#demodetail/:id',
+                views: {
+                    'content@': {
+                        templateUrl : 'views/demodetails.html',
+                        controller  : 'DemoDetailController'
+                   },
+                    'content2@': {
+                        templateUrl : null
+                    },
+                    'content3@': {
+                        templateUrl : null
+                    }
+                }
+            })
+
             // ---------NEW CODE 6/12/2017----------
             //route for Demo page
             .state('app.demo', {
                 url: 'demo',
                 views: {
                     'content@': {
-                        templateUrl : 'views/menu.html',
-                        controller  : 'MenuController'
+                        templateUrl : 'views/demo.html',
+                        controller  : 'DemoController'
                     },
                     'content2@': {
                         templateUrl : null
@@ -24,11 +42,11 @@ angular.module('confusionApp', ['ui.router'])
 
             // route for the demo#demo id in menu page
             .state('app.demoid', {
-                url: 'menu#menu',
+                url: '#demo',
                 views: {
                     'content@': {
-                        templateUrl : 'views/menu.html',
-                        controller  : 'MenuController'
+                        templateUrl : 'views/demo.html',
+                        controller  : 'DemoController'
                     },
                     'content2@': {
                         templateUrl : null
@@ -41,7 +59,7 @@ angular.module('confusionApp', ['ui.router'])
 
             // route for the /aboutus#aboutme tag in aboutus page
             .state('app.aboutusid', {
-                url: 'aboutus#aboutme',
+                url: '#aboutme',
                 views: {
                     'content@': {
                         templateUrl : 'views/aboutus.html',
@@ -58,7 +76,7 @@ angular.module('confusionApp', ['ui.router'])
 
             // route for the /contactus#contactme tag in contactus page
             .state('app.contactusid', {
-                url: 'contactus#contactme',
+                url: '#contactme',
                 views: {
                     'content@': {
                         templateUrl : 'views/contactus.html',
@@ -76,7 +94,7 @@ angular.module('confusionApp', ['ui.router'])
 
            // route for the dishdetail page
             .state('app.dishdetails', {
-                url: 'menu#dishdetailid/:id',
+                url: '#dishdetailid/:id',
                 views: {
                     'content@': {
                         templateUrl : 'views/dishdetail.html',
@@ -192,7 +210,14 @@ angular.module('confusionApp', ['ui.router'])
                     'content@': {
                         templateUrl : 'views/menu.html',
                         controller  : 'MenuController'
+                    },
+                    'content2@': {
+                        templateUrl : null
+                    },
+                    'content3@': {
+                        templateUrl : null
                     }
+
                 }
             })
 
