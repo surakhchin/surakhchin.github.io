@@ -14,9 +14,9 @@
                              <a ng-href={{dem.link}} target="_blank" ><span class="badge">{{dem.info}}</span></a></h2>
                             <p>{{dem.description}}</p>
                             <br>
-                            <a ui-sref="app.demoid">
+                            <a href="">
                             <img class="img-thumbnail img-responsive"
-                             ng-src={{dem.image}} alt="demoimg">
+                             ng-src={{dem.image}} alt="demoimg" data-toggle="modal" data-target="#demoModal">
                             </a>
                             <!--<p>Comment: {{dish.comment}}</p>-->
                             <!--<p>Type your comment:-->
@@ -25,6 +25,31 @@
                     </li>
                 </ul>
             </div>
+            <br><br><br>
+            <button class="btn btn-xs btn-primary pull-right"
+                    type="button" ui-sref="app.demoid">
+                    Back to Demo
+                </button>
+
+             <div class="modal fade" id="demoModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">{{dem.name}}</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-thumbnail" ng-src={{dem.image}} alt="depaul-diploma">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
             <!--<div class="col-xs-9 col-xs-offset-1">-->
                 <!--<p><strong>Customer Comments</strong> Sort By:<input type="text" ng-model="filtText"></p>-->
                 <!--<blockquote ng-repeat="comments in dish.comments | filter:filtText">-->
@@ -91,5 +116,5 @@
             </div>
         </div>
 
-    </div>
+
 
