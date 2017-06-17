@@ -4,34 +4,6 @@ angular.module('confusionApp')
 
 
 
-// .controller('AnimateController', ['$scope', 'demoFactory', function($scope, demoFactory) {
-//
-//
-//
-//             $scope.animate = 'animate';
-//
-//
-//
-//
-//
-//         }])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -177,7 +149,16 @@ angular.module('confusionApp')
 			//ENDD
 
 //-------------------------------------------------------------------------------------
- 	    .controller('JumboController', ['$scope', function($scope) {
+ 	    .controller('JumboController', ['$scope', '$anchorScroll', '$location', function($scope, $anchorScroll, $location) {
+
+ 	    	$scope.pointer = 'app';
+
+
+ 	    	$scope.scrollTo = function(id) {
+			  $location.hash(id);
+			  $anchorScroll();
+   			};
+
 
             $scope.date = new Date();
         }])

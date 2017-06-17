@@ -5,10 +5,89 @@ angular.module('confusionApp', ['ui.router'])
         $stateProvider
 
 
+            // //route to skills id
+            // // route for the demo#demo id in menu page
+            // .state('app.skillsid', {
+            //     url: '#skills',
+            //     views: {
+            //     }
+            // })
 
+
+            // route for the #sampledetals page ***NEW: 6/7/2017
+            .state('app.skillsid', {
+                url: '#skills/:id',
+                views: {
+                    'content@': {
+                        templateUrl : 'views/homepointerstatic.html',
+                        controller  : 'DishDetailController'
+                   },
+                    'content2@': {
+                        templateUrl : 'views/sampledetailspointer.html',
+                        controller  : 'SamplesController'
+                    },
+                    'content3@': {
+                        templateUrl : 'views/creds.html',
+                        controller  : ''
+                    }
+                }
+            })
+
+
+
+
+            // route to #skills id
+            .state('app.skills', {
+                url:'#skills',
+                views: {
+                    'header@': {
+                        templateUrl : 'views/headeranimate.html'
+                    },
+                    'content@': {
+                        templateUrl : 'views/homepointer.html'
+
+                    },
+                    'content2@': {
+                        templateUrl : 'views/samplepointer.html',
+                        controller  : 'SamplesController'
+                    }
+                }
+
+            })
+
+
+
+
+            // route to #animate page
+            .state('app.animateid', {
+                url:'#animate',
+                views: {
+                    'header@': {
+                        templateUrl : 'views/header.html'
+                    },
+                    'content@': {
+                        templateUrl : 'views/animatepointer.html'
+
+                    },
+                    'content2@': {
+                        templateUrl : 'views/samplepointer.html',
+                        controller  : 'SamplesController'
+                    }
+                }
+
+            })
+
+
+
+
+
+            // route to animate page
             .state('app.animate', {
                 url:'animate',
                 views: {
+                    'header@': {
+                        templateUrl : 'views/header.html'
+                    },
                     'content@': {
                         templateUrl : 'views/animate.html'
 
@@ -61,6 +140,9 @@ angular.module('confusionApp', ['ui.router'])
             .state('app.demoid', {
                 url: '#demo',
                 views: {
+                    'header@': {
+                        templateUrl : 'views/headerdemo.html'
+                    },
                     'content@': {
                         templateUrl : 'views/demo.html',
                         controller  : 'DemoController'
@@ -78,6 +160,9 @@ angular.module('confusionApp', ['ui.router'])
             .state('app.aboutusid', {
                 url: '#aboutme',
                 views: {
+                    'header@': {
+                        templateUrl : 'views/headerabout.html'
+                    },
                     'content@': {
                         templateUrl : 'views/aboutus.html',
                         controller  : 'AboutController'
@@ -95,6 +180,9 @@ angular.module('confusionApp', ['ui.router'])
             .state('app.contactusid', {
                 url: '#contactme',
                 views: {
+                    'header@': {
+                        templateUrl : 'views/headercontact.html'
+                    },
                     'content@': {
                         templateUrl : 'views/contactus.html',
                         controller  : 'ContactController'
