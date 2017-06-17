@@ -4,6 +4,23 @@ angular.module('confusionApp', ['ui.router'])
 .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
         $stateProvider
 
+
+
+            .state('app.animate', {
+                url:'animate',
+                views: {
+                    'content@': {
+                        templateUrl : 'views/animate.html'
+
+                    }
+                }
+
+            })
+
+
+
+
+
             // -----NEW CODE 6/13/2017
             // route for DemoDetails page
             .state('app.demodetails', {

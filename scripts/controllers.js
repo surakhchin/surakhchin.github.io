@@ -2,8 +2,41 @@
 
 angular.module('confusionApp')
 
+
+
+// .controller('AnimateController', ['$scope', 'demoFactory', function($scope, demoFactory) {
+//
+//
+//
+//             $scope.animate = 'animate';
+//
+//
+//
+//
+//
+//         }])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
-//                                   DEMO/DEMODETAILS CONTROLLERS	6/13/2017
+//
+//                             DEMO/DEMODETAILS CONTROLLERS	6/13/2017
 
 	.controller('DemoController', ['$scope', 'demoFactory', '$window', function($scope, demoFactory, $window) {
 
