@@ -4,14 +4,24 @@ angular.module('confusionApp', ['ui.router'])
 .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
         $stateProvider
 
+            // route to #sampleprojects id
+            .state('app.sampleprojects', {
+                url:'#sampleprojects',
+                views: {
+                    'header@': {
+                        templateUrl : 'views/headeranimate.html'
+                    },
+                    'content@': {
+                        templateUrl : 'views/homepointer.html'
 
-            // //route to skills id
-            // // route for the demo#demo id in menu page
-            // .state('app.skillsid', {
-            //     url: '#skills',
-            //     views: {
-            //     }
-            // })
+                    },
+                    'content2@': {
+                        templateUrl : 'views/samplepointer.html',
+                        controller  : 'SamplesController'
+                    }
+                }
+
+            })
 
 
             // route for the #sampledetals page ***NEW: 6/7/2017
