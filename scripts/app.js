@@ -244,7 +244,7 @@ angular.module('confusionApp', ['ui.router'])
                 url: 'samples/:id',
                 views: {
                     'content@': {
-                        templateUrl : 'views/home.html',
+                        templateUrl : 'views/static.html',
                         controller  : 'DishDetailController'
                    },
                     'content2@': {

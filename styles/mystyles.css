@@ -44,6 +44,16 @@
 
 
 
+.twentyS {
+    width: 20px;
+    height: 10px;
+    position :relative;
+    background: #337ab7;
+
+}
+
+
+
 
 /* Standard syntax */
 @keyframes twenty {
@@ -81,7 +91,12 @@
     animation: thirty 3s;
 }
 
-
+.thirtyS {
+    width: 30px;
+    height: 10px;
+    position :relative;
+    background: #337ab7;
+}
 
 
 
@@ -135,7 +150,12 @@
     animation: forty 3s;
 }
 
-
+.fortyS {
+    width: 40px;
+    height: 10px;
+    position :relative;
+    background: #5cb85c;
+}
 
 
 
@@ -200,7 +220,13 @@
     animation: fifty 3s;
 }
 
+.fiftyS {
+    width: 50px;
+    height: 10px;
+    position :relative;
+    background: #f0ad4e;
 
+}
 
 
 
@@ -277,6 +303,16 @@
     -webkit-animation: mymove 3s infinite; /* Safari 4.0 - 8.0 */
     animation: sixty 3s;
 }
+
+.sixtyS {
+    width: 60px;
+    height: 10px;
+    position :relative;
+    background: #f0ad4e;
+
+}
+
+
 @keyframes sixty {
     0%   {background: #337ab7; width: 0px;}
     1%   {width: 1px;}
@@ -350,6 +386,16 @@
     -webkit-animation: mymove 3s infinite; /* Safari 4.0 - 8.0 */
     animation: seventy 3s;
 }
+
+.seventyS {
+    width: 70px;
+    height: 10px;
+    position :relative;
+    background: #f0ad4e;
+}
+
+
+
 
 
 /* Standard syntax */
@@ -438,6 +484,14 @@
     background: #d9534f;
     -webkit-animation: mymove 3s infinite; /* Safari 4.0 - 8.0 */
     animation: eighty 3s;
+}
+
+
+.eightyS {
+    width: 80px;
+    height: 10px;
+    position :relative;
+    background: #d9534f;
 }
 
 
@@ -539,6 +593,15 @@
     -webkit-animation: mymove 3s infinite; /* Safari 4.0 - 8.0 */
     animation: mymove 3s;
 }
+
+
+.testS {
+    width: 100px;
+    height: 10px;
+    position :relative;
+    background: #d9534f;
+}
+
 
 
 /* Standard syntax */
