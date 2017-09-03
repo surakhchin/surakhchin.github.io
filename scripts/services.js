@@ -118,7 +118,7 @@ var samples=[
                          {
                           _id:0,
                           name:'GCS Fund',
-                          image: 'images/main.PNG',
+                          image: 'images/main.png',
                           url: 'https://surakhchin.github.io/gcsfund',
                           date: '8/16/2017',
                           description:'Django web app embedded with custom javascript and html buttons/inputs.'
