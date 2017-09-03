@@ -117,19 +117,19 @@ angular.module('confusionApp')
 var samples=[
                          {
                           _id:0,
-                          name:'Chicago',
-                          image: 'images/chicago.PNG',
-                          url: 'https://surakhchin.github.io/Chicago',
-                          date: '5/30/2016',
-                          description:'Single html page responsive static website built with Bootstrap, custom jQuery, CSS3, and HTML5 elements.'
+                          name:'GCS Fund',
+                          image: 'images/main.PNG',
+                          url: 'https://surakhchin.github.io/gcsfund',
+                          date: '8/16/2017',
+                          description:'Django web app embedded with custom javascript and html buttons/inputs.'
                         },
                         {
                           _id:1,
-                          name:'conFusion',
-                          image: 'images/confusion.PNG',
-                          url: 'https://surakhchin.github.io/conFusion',
-                          date: '2/30/2017',
-                          description:'Single Page Application build with AngularJS, Bootstrap, custom JavaScript and jQuery.'
+                          name:'Compass App',
+                          image: 'images/compass.PNG',
+                          url: 'https://surakhchin.github.io/compass',
+                          date: '8/26/2017',
+                          description:'Mobile app project to capture device GPS geolocation and rotational data using HTML5 Geolocation and Device Orientation Web APIs.'
                         },
                         {
                           _id:2,
@@ -156,6 +156,22 @@ var samples=[
                           date: '6/1/2016',
                           description:'Sample forms made with HTML5, jQuery ajax, and custom JavaScript',
                           url2: 'https://surakhchin.github.io/form2'
+                        },
+                        {
+                          _id:5,
+                          name:'Chicago',
+                          image: 'images/chicago.PNG',
+                          url: 'https://surakhchin.github.io/Chicago',
+                          date: '5/30/2016',
+                          description:'Single html page responsive static website built with Bootstrap, custom jQuery, CSS3, and HTML5 elements.'
+                        },
+                        {
+                          _id:6,
+                          name:'conFusion',
+                          image: 'images/confusion.PNG',
+                          url: 'https://surakhchin.github.io/conFusion',
+                          date: '2/30/2017',
+                          description:'Single Page Application build with AngularJS, Bootstrap, custom JavaScript and jQuery.'
                         }
                         ];
 

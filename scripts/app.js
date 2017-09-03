@@ -106,6 +106,22 @@ angular.module('confusionApp', ['ui.router'])
 
             })
 
+            // route to animate2 page
+            .state('app.animate2', {
+                url:'animate2',
+                views: {
+                    'header@': {
+                        templateUrl : 'views/header.html'
+                    },
+                    'content@': {
+                        templateUrl : 'views/animate2.html'
+
+                    }
+                }
+
+            })
+
+
 
 
 
