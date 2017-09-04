@@ -26,8 +26,68 @@
         <entry file="file://$PROJECT_DIR$/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="120" column="49" lean-forward="false" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
-              <folding />
+              <caret line="166" column="49" lean-forward="false" selection-start-line="166" selection-start-column="49" selection-end-line="166" selection-end-column="49" />
+              <folding>
+                <marker date="1504513449980" expanded="true" signature="134:23727" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="179:23726" ph="{...}" />
+                <marker date="1504513449980" expanded="true" signature="373:6566" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="400:471" ph="{&quot;name&quot;: 'HTML5'...}" />
+                <marker date="1504513449980" expanded="true" signature="6699:6751" ph="{...}" />
+                <marker date="1504513449980" expanded="true" signature="6954:8092" ph="{&quot;image&quot;: 'images/skills.png'...}" />
+                <marker date="1504513449980" expanded="true" signature="7418:7957" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="8136:8182" ph="{...}" />
+                <marker date="1504513449980" expanded="true" signature="8216:8532" ph="{&quot;image&quot;: 'images/credentials.png'...}" />
+                <marker date="1504513449980" expanded="true" signature="8581:8632" ph="{...}" />
+                <marker date="1504513449980" expanded="true" signature="8659:9862" ph="{&quot;title&quot;: 'Programming Goals'...}" />
+                <marker date="1504513449980" expanded="true" signature="9905:9950" ph="{...}" />
+                <marker date="1504513449980" expanded="true" signature="9952:10087" ph="//..." />
+                <marker date="1504513449980" expanded="true" signature="10103:13447" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="10130:10513" ph="{&quot;name&quot;: 'GCS Fund'...}" />
+                <marker date="1504513449980" expanded="true" signature="10539:10986" ph="{&quot;name&quot;: 'Compass App'...}" />
+                <marker date="1504513449980" expanded="true" signature="11012:11555" ph="{&quot;name&quot;: 'Menu'...}" />
+                <marker date="1504513449980" expanded="true" signature="11581:12079" ph="{&quot;name&quot;: 'Budgets'...}" />
+                <marker date="1504513449980" expanded="true" signature="12105:12544" ph="{&quot;name&quot;: 'Forms'...}" />
+                <marker date="1504513449980" expanded="true" signature="12570:12989" ph="{&quot;name&quot;: 'Chicago'...}" />
+                <marker date="1504513449980" expanded="true" signature="13015:13421" ph="{&quot;name&quot;: 'conFusion'...}" />
+                <marker date="1504513449980" expanded="true" signature="13477:13663" ph="{&quot;image&quot;: 'images/sampleprojects.png'...}" />
+                <marker date="1504513449980" expanded="true" signature="13708:13755" ph="{...}" />
+                <marker date="1504513449980" expanded="true" signature="13806:13861" ph="{...}" />
+                <marker date="1504513449980" expanded="true" signature="13992:22742" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="14019:16230" ph="{&quot;name&quot;: 'Uthapizza'...}" />
+                <marker date="1504513449980" expanded="true" signature="14534:16204" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="14567:14865" ph="{&quot;comment&quot;: &quot;Imagine all the eatables, living in conFusion!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="14898:15222" ph="{&quot;comment&quot;: &quot;Sends anyone to heaven, I wish I could get my mother-in-law to eat it!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="15255:15534" ph="{&quot;comment&quot;: &quot;Eat it, just eat it!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="15567:15854" ph="{&quot;comment&quot;: &quot;Ultimate, Reaching for the stars!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="15887:16174" ph="{&quot;comment&quot;: &quot;It's your birthday, we're gonna party!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="16256:18404" ph="{&quot;name&quot;: 'Zucchi'...}" />
+                <marker date="1504513449980" expanded="true" signature="16708:18378" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="16741:17039" ph="{&quot;comment&quot;: &quot;Imagine all the eatables, living in conFusion!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="17072:17396" ph="{&quot;comment&quot;: &quot;Sends anyone to heaven, I wish I could get my mother-in-law to eat it!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="17429:17708" ph="{&quot;comment&quot;: &quot;Eat it, just eat it!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="17741:18028" ph="{&quot;comment&quot;: &quot;Ultimate, Reaching for the stars!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="18061:18348" ph="{&quot;comment&quot;: &quot;It's your birthday, we're gonna party!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="18430:20534" ph="{&quot;name&quot;: 'Vadonut'...}" />
+                <marker date="1504513449980" expanded="true" signature="18838:20508" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="18871:19169" ph="{&quot;comment&quot;: &quot;Imagine all the eatables, living in conFusion!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="19202:19526" ph="{&quot;comment&quot;: &quot;Sends anyone to heaven, I wish I could get my mother-in-law to eat it!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="19559:19838" ph="{&quot;comment&quot;: &quot;Eat it, just eat it!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="19871:20158" ph="{&quot;comment&quot;: &quot;Ultimate, Reaching for the stars!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="20191:20478" ph="{&quot;comment&quot;: &quot;It's your birthday, we're gonna party!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="20560:22716" ph="{&quot;name&quot;: 'ElaiCheese Cake'...}" />
+                <marker date="1504513449980" expanded="true" signature="21020:22690" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="21053:21351" ph="{&quot;comment&quot;: &quot;Imagine all the eatables, living in conFusion!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="21384:21708" ph="{&quot;comment&quot;: &quot;Sends anyone to heaven, I wish I could get my mother-in-law to eat it!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="21741:22020" ph="{&quot;comment&quot;: &quot;Eat it, just eat it!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="22053:22340" ph="{&quot;comment&quot;: &quot;Ultimate, Reaching for the stars!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="22373:22660" ph="{&quot;comment&quot;: &quot;It's your birthday, we're gonna party!&quot;...}" />
+                <marker date="1504513449980" expanded="true" signature="22773:23303" ph="[...]" />
+                <marker date="1504513449980" expanded="true" signature="22791:23288" ph="{&quot;name&quot;: 'Weekend Grand Buffet'...}" />
+                <marker date="1504513449980" expanded="true" signature="23348:23396" ph="{...}" />
+                <marker date="1504513449980" expanded="true" signature="23443:23497" ph="{...}" />
+                <marker date="1504513449980" expanded="true" signature="23512:23604" ph="//..." />
+                <marker date="1504513449980" expanded="true" signature="23654:23712" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +95,58 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+            <state relative-caret-position="51">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="47" column="111" lean-forward="false" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headerabout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/headerabout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="47" column="111" lean-forward="false" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headeranimate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/headeranimate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="47" column="111" lean-forward="false" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headercontact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/headercontact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="47" column="110" lean-forward="false" selection-start-line="47" selection-start-column="110" selection-end-line="47" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headerdemo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/headerdemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="47" column="110" lean-forward="false" selection-start-line="47" selection-start-column="110" selection-end-line="47" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -51,9 +161,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/views/footer.html" />
-        <option value="$PROJECT_DIR$/views/header.html" />
         <option value="$PROJECT_DIR$/views/home.html" />
         <option value="$PROJECT_DIR$/scripts/services.js" />
+        <option value="$PROJECT_DIR$/views/header.html" />
+        <option value="$PROJECT_DIR$/views/headerabout.html" />
+        <option value="$PROJECT_DIR$/views/headeranimate.html" />
+        <option value="$PROJECT_DIR$/views/headercontact.html" />
+        <option value="$PROJECT_DIR$/views/headerdemo.html" />
       </list>
     </option>
   </component>
@@ -417,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
@@ -440,15 +547,115 @@
     <entry file="file://$PROJECT_DIR$/scripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="120" column="49" lean-forward="false" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
+          <caret line="166" column="49" lean-forward="false" selection-start-line="166" selection-start-column="49" selection-end-line="166" selection-end-column="49" />
+          <folding>
+            <marker date="1504513449980" expanded="true" signature="134:23727" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="179:23726" ph="{...}" />
+            <marker date="1504513449980" expanded="true" signature="373:6566" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="400:471" ph="{&quot;name&quot;: 'HTML5'...}" />
+            <marker date="1504513449980" expanded="true" signature="6699:6751" ph="{...}" />
+            <marker date="1504513449980" expanded="true" signature="6954:8092" ph="{&quot;image&quot;: 'images/skills.png'...}" />
+            <marker date="1504513449980" expanded="true" signature="7418:7957" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="8136:8182" ph="{...}" />
+            <marker date="1504513449980" expanded="true" signature="8216:8532" ph="{&quot;image&quot;: 'images/credentials.png'...}" />
+            <marker date="1504513449980" expanded="true" signature="8581:8632" ph="{...}" />
+            <marker date="1504513449980" expanded="true" signature="8659:9862" ph="{&quot;title&quot;: 'Programming Goals'...}" />
+            <marker date="1504513449980" expanded="true" signature="9905:9950" ph="{...}" />
+            <marker date="1504513449980" expanded="true" signature="9952:10087" ph="//..." />
+            <marker date="1504513449980" expanded="true" signature="10103:13447" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="10130:10513" ph="{&quot;name&quot;: 'GCS Fund'...}" />
+            <marker date="1504513449980" expanded="true" signature="10539:10986" ph="{&quot;name&quot;: 'Compass App'...}" />
+            <marker date="1504513449980" expanded="true" signature="11012:11555" ph="{&quot;name&quot;: 'Menu'...}" />
+            <marker date="1504513449980" expanded="true" signature="11581:12079" ph="{&quot;name&quot;: 'Budgets'...}" />
+            <marker date="1504513449980" expanded="true" signature="12105:12544" ph="{&quot;name&quot;: 'Forms'...}" />
+            <marker date="1504513449980" expanded="true" signature="12570:12989" ph="{&quot;name&quot;: 'Chicago'...}" />
+            <marker date="1504513449980" expanded="true" signature="13015:13421" ph="{&quot;name&quot;: 'conFusion'...}" />
+            <marker date="1504513449980" expanded="true" signature="13477:13663" ph="{&quot;image&quot;: 'images/sampleprojects.png'...}" />
+            <marker date="1504513449980" expanded="true" signature="13708:13755" ph="{...}" />
+            <marker date="1504513449980" expanded="true" signature="13806:13861" ph="{...}" />
+            <marker date="1504513449980" expanded="true" signature="13992:22742" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="14019:16230" ph="{&quot;name&quot;: 'Uthapizza'...}" />
+            <marker date="1504513449980" expanded="true" signature="14534:16204" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="14567:14865" ph="{&quot;comment&quot;: &quot;Imagine all the eatables, living in conFusion!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="14898:15222" ph="{&quot;comment&quot;: &quot;Sends anyone to heaven, I wish I could get my mother-in-law to eat it!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="15255:15534" ph="{&quot;comment&quot;: &quot;Eat it, just eat it!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="15567:15854" ph="{&quot;comment&quot;: &quot;Ultimate, Reaching for the stars!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="15887:16174" ph="{&quot;comment&quot;: &quot;It's your birthday, we're gonna party!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="16256:18404" ph="{&quot;name&quot;: 'Zucchi'...}" />
+            <marker date="1504513449980" expanded="true" signature="16708:18378" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="16741:17039" ph="{&quot;comment&quot;: &quot;Imagine all the eatables, living in conFusion!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="17072:17396" ph="{&quot;comment&quot;: &quot;Sends anyone to heaven, I wish I could get my mother-in-law to eat it!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="17429:17708" ph="{&quot;comment&quot;: &quot;Eat it, just eat it!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="17741:18028" ph="{&quot;comment&quot;: &quot;Ultimate, Reaching for the stars!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="18061:18348" ph="{&quot;comment&quot;: &quot;It's your birthday, we're gonna party!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="18430:20534" ph="{&quot;name&quot;: 'Vadonut'...}" />
+            <marker date="1504513449980" expanded="true" signature="18838:20508" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="18871:19169" ph="{&quot;comment&quot;: &quot;Imagine all the eatables, living in conFusion!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="19202:19526" ph="{&quot;comment&quot;: &quot;Sends anyone to heaven, I wish I could get my mother-in-law to eat it!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="19559:19838" ph="{&quot;comment&quot;: &quot;Eat it, just eat it!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="19871:20158" ph="{&quot;comment&quot;: &quot;Ultimate, Reaching for the stars!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="20191:20478" ph="{&quot;comment&quot;: &quot;It's your birthday, we're gonna party!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="20560:22716" ph="{&quot;name&quot;: 'ElaiCheese Cake'...}" />
+            <marker date="1504513449980" expanded="true" signature="21020:22690" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="21053:21351" ph="{&quot;comment&quot;: &quot;Imagine all the eatables, living in conFusion!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="21384:21708" ph="{&quot;comment&quot;: &quot;Sends anyone to heaven, I wish I could get my mother-in-law to eat it!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="21741:22020" ph="{&quot;comment&quot;: &quot;Eat it, just eat it!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="22053:22340" ph="{&quot;comment&quot;: &quot;Ultimate, Reaching for the stars!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="22373:22660" ph="{&quot;comment&quot;: &quot;It's your birthday, we're gonna party!&quot;...}" />
+            <marker date="1504513449980" expanded="true" signature="22773:23303" ph="[...]" />
+            <marker date="1504513449980" expanded="true" signature="22791:23288" ph="{&quot;name&quot;: 'Weekend Grand Buffet'...}" />
+            <marker date="1504513449980" expanded="true" signature="23348:23396" ph="{...}" />
+            <marker date="1504513449980" expanded="true" signature="23443:23497" ph="{...}" />
+            <marker date="1504513449980" expanded="true" signature="23512:23604" ph="//..." />
+            <marker date="1504513449980" expanded="true" signature="23654:23712" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="47" column="111" lean-forward="false" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/headerabout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="47" column="111" lean-forward="false" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/headeranimate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="47" column="111" lean-forward="false" selection-start-line="47" selection-start-column="111" selection-end-line="47" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/headercontact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="47" column="110" lean-forward="false" selection-start-line="47" selection-start-column="110" selection-end-line="47" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/headerdemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="47" column="110" lean-forward="false" selection-start-line="47" selection-start-column="110" selection-end-line="47" selection-end-column="110" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        <state relative-caret-position="51">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

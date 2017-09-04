@@ -11,7 +11,7 @@ angular.module('confusionApp')
             var demo=[
                          {
                           _id:0,
-                          name:'HTML5',
+                          name:'HTML',
                           image: 'images/html5.png',
                           category: 'HTML5',
                           link:'https://www.google.com/search?q=html5&rlz=1C1CHBF_enUS742US742&oq=html&aqs=chrome.0.69i59j69i60j69i61j69i60j69i57j69i65.1308j0j7&sourceid=chrome&ie=UTF-8',
@@ -20,7 +20,7 @@ angular.module('confusionApp')
                         },
                         {
                           _id:1,
-                          name:'CSS3',
+                          name:'CSS',
                           image: 'images/css3.png',
                           category: 'CSS3',
                           link:'https://www.google.com/search?num=100&safe=off&rlz=1C1CHBF_enUS742US742&q=css3&oq=css3&gs_l=serp.3..35i39k1l2j0i20k1l2j0j0i131k1j0j0i67k1j0i131k1j0i67k1.12112.12605.0.12754.4.4.0.0.0.0.92.333.4.4.0....0...1.1.64.serp..0.4.333.CsZdd9rmxfI',
@@ -34,17 +34,63 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'https://www.google.com/search?num=100&safe=off&rlz=1C1CHBF_enUS742US742&q=javascript&oq=javascript&gs_l=serp.3..35i39k1l2j0i67k1l3j0j0i20k1l2j0i67k1l2.23896.24864.0.24981.10.10.0.0.0.0.115.725.7j1.8.0....0...1.1.64.serp..2.8.725...0i131k1.A8q65rp6VlQ',
                           info:'info',
-                          description:'Programming language of the web. Very versatile and popular.'
+                          description:'Programming language of the web. Very versatile and popular. Javascript is popular because it is pretty much the only language you can use on the front end. Then node.js was created that took JavaSCript, added a few things to the langueage, and made it so it can function as a server side language. Server language is a program that is running on a computer. The program doesn\'t have a nice interface, but can do stuff the computer and receive info and send it back. NodeJS makes JavaScript a C++ program, all different words get interpreted by C++.'
                         },
                         {
                           _id:3,
-                          name:'AngularJS',
+                          name:'Angular',
                           image: 'images/angular.png',
                           category: 'AngularJS',
                           link:'https://www.google.com/search?num=100&safe=off&rlz=1C1CHBF_enUS742US742&q=angularjs&oq=angularjs&gs_l=serp.3..35i39k1l2j0i67k1j0i20k1j0i67k1l6.12606.13477.0.13605.9.9.0.0.0.0.155.993.5j4.9.0....0...1.1.64.serp..0.9.993...0j0i131k1.-uM5Wggwq8U',
                           info:'info',
                           description:'A very powerful front end javascript framework. Some of my favorite features supported are Single Page Applications, MVC architecture, and dynamic data binding'
-                        }
+                        },
+                        {
+                          _id:4,
+                          name:'Variable',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'',
+                          info:'info',
+                          description:'Programming Language is a set of instructions that were ultimately given to the computer. When we write thse instructions, we have different values that we manipulate, pass around, and do stuff with. Variables hold values. We user variables to manipulate data. We declare a variable using JS key word var and give the variable a name. Example: var name = "Ben". We then use assignment operator and assign the variable name with value Ben.  We use the variable name to reference the value. '
+                        },
+                        {
+                          _id:5,
+                          name:'Object',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'',
+                          info:'info',
+                          description:'Object is a list of key value pairs. Objects give use a nice way to have a bunch of related variables we can all group together under a single name we can pass around in our app. An object is a list of key:value pairs. Example: var user = {username: "serge", password: "123hey123"}'
+                        },
+                {
+                          _id:6,
+                          name:'.length',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'',
+                          info:'info',
+                          description:'.length is a String object property that tells you how many characters are in a string. Also it is a property of an array that tells you how many indexes are in that array.'
+                        },
+                {
+                          _id:7,
+                          name:'Parameters',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'',
+                          info:'info',
+                          description:' vs Arguments: When we define a function, we can specify parameters (params). Parameters are values that can be passed into a function every time the function is called/invoked. ***A parameter is a reference to a value you pass in as an argument.'
+                        },
+                {
+                          _id:8,
+                          name:'Parameters',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'',
+                          info:'info',
+                          description:' vs Arguments: When we define a function, we can specify parameters (params). Parameters are values that can be passed into a function every time the function is called/invoked. ***A parameter is a reference to a value you pass in as an argument.'
+                        },
+
                         ];
 
 
