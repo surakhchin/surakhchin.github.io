@@ -25,16 +25,16 @@ angular.module('confusionApp')
                 $scope.tab = setTab;
 
                 if (setTab === 2) {
-                    $scope.filtText = "HTML5";
+                    $scope.filtText = "HTML";
                 }
                 else if (setTab === 3) {
-                    $scope.filtText = "CSS3";
+                    $scope.filtText = "CSS";
                 }
                 else if (setTab === 4) {
                     $scope.filtText = "JavaScript";
                 }
                 else if (setTab === 5) {
-                    $scope.filtText = "AngularJS";
+                    $scope.filtText = "Angular";
                 }
                 else {
                     $scope.filtText = "";
