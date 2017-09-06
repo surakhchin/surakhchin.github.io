@@ -34,7 +34,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'https://www.google.com/search?num=100&safe=off&rlz=1C1CHBF_enUS742US742&q=javascript&oq=javascript&gs_l=serp.3..35i39k1l2j0i67k1l3j0j0i20k1l2j0i67k1l2.23896.24864.0.24981.10.10.0.0.0.0.115.725.7j1.8.0....0...1.1.64.serp..2.8.725...0i131k1.A8q65rp6VlQ',
                           info:'info',
-                          description:'Programming language of the web. Very versatile and popular. Javascript is popular because it is pretty much the only language you can use on the front end. Then node.js was created that took JavaSCript, added a few things to the langueage, and made it so it can function as a server side language. Server language is a program that is running on a computer. The program doesn\'t have a nice interface, but can do stuff the computer and receive info and send it back. NodeJS makes JavaScript a C++ program, all different words get interpreted by C++.'
+                          description:'Programming language of the web. Very versatile and popular. Javascript is popular because it is pretty much the only language you can use on the front end. Then node.js was created that took JavaSCript, added a few things to the langueage, and made it so it can function as a server side language. Server language is a program that is running on a computer. The program doesn\'t have a nice interface, but it can do stuff the computer and receive info and send it back. NodeJS makes JavaScript a C++ program, all different words get interpreted by C++. KEY CHARACTERISTICS: JavaScript is a high-level language meaning it has strong abstraction from details of computation. It is dynamic programming language meaning at runtime it executes many common programming behaviors that static languages perform during compilation. It is untyped, which allows operations to be performed on any type of data. JavaScript is object based, it uses the idea of encapsulating state and operations inside of objects. There are object based and object oriented languages. JavaScript is also multi-paradigm and is interpreted, meaning that it executes instructions directly to machine code without the need of a compiler via an interpreter.'
                         },
                         {
                           _id:3,
@@ -47,7 +47,7 @@ angular.module('confusionApp')
                         },
                         {
                           _id:4,
-                          name:'Variable',
+                          name:'variable',
                           image: '',
                           category: 'JavaScript',
                           link:'',
@@ -56,15 +56,24 @@ angular.module('confusionApp')
                         },
                         {
                           _id:5,
-                          name:'Object',
+                          name:'object',
                           image: '',
                           category: 'JavaScript',
                           link:'',
                           info:'info',
-                          description:'Object is a list of key value pairs. Objects give use a nice way to have a bunch of related variables we can all group together under a single name we can pass around in our app. An object is a list of key:value pairs. Example: var user = {username: "serge", password: "123hey123"}'
+                          description:'Object is a list of key value pairs. Objects give use a nice way to have a bunch of related variables we can all group together under a single name we can pass around in our app. An object is a list of key:value pairs. Example: var user = {username: "serge", password: "123hey123"}.'
                         },
                 {
                           _id:6,
+                          name:'function(value)',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'',
+                          info:'info',
+                          description:'There is a value in JavaScript that references a whole block of code, or a list of instructions. These values are called functions, which are "reusable packets of code." Note: function is a value, but we use function key word (not var) to assign the function its value. *** A function is a block of code that we wrap in a variable name and use that name with () to execute that block of code. Example: function sayHi() {console.log("Hello");}. Here we define a function sayHi, we can then invoke/call this function by typing: sayHi();. When the code catches up with this line it will look for our function definition and execute the instructions accordingly.'
+                        },
+                {
+                          _id:7,
                           name:'.length',
                           image: '',
                           category: 'JavaScript',
@@ -73,22 +82,49 @@ angular.module('confusionApp')
                           description:'.length is a String object property that tells you how many characters are in a string. Also it is a property of an array that tells you how many indexes are in that array.'
                         },
                 {
-                          _id:7,
-                          name:'Parameters',
+                          _id:8,
+                          name:'parameters',
                           image: '',
                           category: 'JavaScript',
-                          link:'',
+                          link:'http://jsbin.com/jerucopudo/edit?js,console',
                           info:'info',
-                          description:' vs Arguments: When we define a function, we can specify parameters (params). Parameters are values that can be passed into a function every time the function is called/invoked. ***A parameter is a reference to a value you pass in as an argument.'
+                          description:' vs arguments: When we define a function, we can specify parameters (params). Parameters are placeholders to the values being passed as arguments into a function every time the function is called/invoked. ***A parameter is a reference to a value you pass in as an argument.'
                         },
                 {
-                          _id:8,
-                          name:'Parameters',
+                          _id:9,
+                          name:'ternary expression',
                           image: '',
                           category: 'JavaScript',
                           link:'',
                           info:'info',
-                          description:' vs Arguments: When we define a function, we can specify parameters (params). Parameters are values that can be passed into a function every time the function is called/invoked. ***A parameter is a reference to a value you pass in as an argument.'
+                          description:'An expression that evaluates to true or false. Example: return x > y ? true: false. We first set a condition "if x greater than y" then if true return true, and if false return false. The first segment is if expression evaluates to be true and the second segment if the expression evaluates to be false.'
+                        },
+                {
+                          _id:10,
+                          name:'.reduce()',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/pixomutolu/embed?js,console',
+                          info:'info',
+                          description:'An array method that ads up all elements in an array. An example of a method that takes a function as an argument.'
+                        },
+                {
+                          _id:11,
+                          name:'assignment',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/quxusasave/edit?js,console',
+                          info:'info',
+                          description:'In Javascript we use equal sign = as an assignment operator.In the example we have variable firstName, we assign it to string Ben. We then have var lastName and we assign it to string Nelson. For the variable fullName we concatenate the other two variables and stick this new value under this new variable name. '
+                        },
+                {
+                          _id:12,
+                          name:'.map()',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/tuporemutu/edit?js,console',
+                          info:'info',
+                          description:'An array method that is used when we want to transform a set of collections. The map method accumulates all the results into a collection, while the forEach method simply exectutes an action on each element and returns nothing. ***map method creates a new array with the results of calling a provided function on every element of the array. map and forEach are examples of methods that take in a callback function as an argument. We pass these methods an anonymous function when we invoke it. Notice in the example we take the results of the numbers.map() and pass those results into the var squares.  '
                         },
 
                         ];
