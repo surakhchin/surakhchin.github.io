@@ -119,12 +119,57 @@ angular.module('confusionApp')
                         },
                 {
                           _id:12,
+                          name:'.forEach()',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/jiyitejumo/edit?js,console',
+                          info:'info',
+                          description:'The forEach method executes a provided function once for each array element. Syntax: arr.forEach(function(currentValue,, index, array){//your iterator that does something with currentValue, index, or array})'
+                        },
+                {
+                          _id:13,
                           name:'.map()',
                           image: '',
                           category: 'JavaScript',
                           link:'http://jsbin.com/tuporemutu/edit?js,console',
                           info:'info',
                           description:'An array method that is used when we want to transform a set of collections. The map method accumulates all the results into a collection, while the forEach method simply exectutes an action on each element and returns nothing. ***map method creates a new array with the results of calling a provided function on every element of the array. map and forEach are examples of methods that take in a callback function as an argument. We pass these methods an anonymous function when we invoke it. Notice in the example we take the results of the numbers.map() and pass those results into the var squares.  '
+                        },
+                {
+                          _id:14,
+                          name:'pass-by-reference',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language?rq=1',
+                          info:'info',
+                          description:'The data associated with passed variable is not copied when passed to the function, and thus any modification made by the function to the passed ariable will be retained after the function call terminates. An example of this would be me giving you a URL to my website. I am passing you my website by the reference of a URL.'
+                        },
+                {
+                          _id:15,
+                          name:'pass-by-value',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language?rq=1',
+                          info:'info',
+                          description:'The data associated with the variable is actually copied when passed to the function and any modification made by such function to such variable will be lost when the variable goes out of scope of the functions body when the function returns. Remember, variables are pointers to values in memory. Rearranging a variable merely points that pointer to a new value. Reassigning a variable will not effect other variables that were pointing a the same value.'
+                        },
+                {
+                          _id:16,
+                          name:'object II',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/yiwajarotu/edit?js,console',
+                          info:'info',
+                          description:'An object is a list of key/value paiers with named keys that reference a value. We use the keyword aka property, that is a string =, to access the value of an object. When there a function is on an object it is called a method. A property is a special variable that is stuck on an object. Example: var user = {username: serge} we access and/or assign the value serge by doing user.username = serge; There are two ways to create an object using JavaScript. var user = {}; user.username = "Ben"; and var user = {username: "Ben"}; '
+                        },
+                {
+                          _id:17,
+                          name:'.dot vs [bracket] notation',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/lomitufoda/edit?js,console',
+                          info:'info',
+                          description:'Both are ways to add property/values to an object. Note: objects and arrays occupy a single space in memory. .dot notation: object.newProperty = newValue; [bracket] notation: object[newProperty] = newValue. Note: when you pass in a property as an argument, you must specify the property as a string. We use bracket notation when we need to pass in a property as an argument or when we are iterating over parameters of an object. Remember, a property name is a string, so if we pass in the property as an argument, has to be in quotes. To access the value of a property we can do: object.property or object["property"].'
                         },
 
                         ];
