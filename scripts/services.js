@@ -48,7 +48,7 @@ angular.module('confusionApp')
                         {
                           _id:4,
                           name:'variable',
-                          image: '',
+                          image: 'images/4.PNG',
                           category: 'JavaScript',
                           link:'',
                           info:'info',
@@ -57,7 +57,7 @@ angular.module('confusionApp')
                         {
                           _id:5,
                           name:'object',
-                          image: '',
+                          image: 'images/5.PNG',
                           category: 'JavaScript',
                           link:'',
                           info:'info',
@@ -66,7 +66,7 @@ angular.module('confusionApp')
                 {
                           _id:6,
                           name:'function(value)',
-                          image: '',
+                          image: 'images/6.PNG',
                           category: 'JavaScript',
                           link:'',
                           info:'info',
@@ -75,7 +75,7 @@ angular.module('confusionApp')
                 {
                           _id:7,
                           name:'.length',
-                          image: '',
+                          image: 'images/7.PNG',
                           category: 'JavaScript',
                           link:'',
                           info:'info',
@@ -84,7 +84,7 @@ angular.module('confusionApp')
                 {
                           _id:8,
                           name:'parameters',
-                          image: '',
+                          image: 'images/8.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/jerucopudo/edit?js,console',
                           info:'info',
@@ -93,7 +93,7 @@ angular.module('confusionApp')
                 {
                           _id:9,
                           name:'ternary expression',
-                          image: '',
+                          image: 'images/9.PNG',
                           category: 'JavaScript',
                           link:'',
                           info:'info',
@@ -102,7 +102,7 @@ angular.module('confusionApp')
                 {
                           _id:10,
                           name:'.reduce()',
-                          image: '',
+                          image: 'images/10.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/pixomutolu/embed?js,console',
                           info:'info',
@@ -111,16 +111,16 @@ angular.module('confusionApp')
                 {
                           _id:11,
                           name:'assignment',
-                          image: '',
+                          image: 'images/11.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/quxusasave/edit?js,console',
                           info:'info',
-                          description:'In Javascript we use equal sign = as an assignment operator.In the example we have variable firstName, we assign it to string Ben. We then have var lastName and we assign it to string Nelson. For the variable fullName we concatenate the other two variables and stick this new value under this new variable name. '
+                          description:'In Javascript we use equal sign = as an assignment operator. In the example we have variable firstName, we assign it to string Ben. We then have var lastName and we assign it to string Nelson. For the variable fullName we concatenate the other two variables and stick this new value under this new variable name. '
                         },
                 {
                           _id:12,
                           name:'.forEach()',
-                          image: '',
+                          image: 'images/12.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/jiyitejumo/edit?js,console',
                           info:'info',
@@ -129,7 +129,7 @@ angular.module('confusionApp')
                 {
                           _id:13,
                           name:'.map()',
-                          image: '',
+                          image: 'images/13.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/tuporemutu/edit?js,console',
                           info:'info',
@@ -138,7 +138,7 @@ angular.module('confusionApp')
                 {
                           _id:14,
                           name:'pass-by-reference',
-                          image: '',
+                          image: 'images/15.PNG',
                           category: 'JavaScript',
                           link:'https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language?rq=1',
                           info:'info',
@@ -147,7 +147,7 @@ angular.module('confusionApp')
                 {
                           _id:15,
                           name:'pass-by-value',
-                          image: '',
+                          image: 'images/15.PNG',
                           category: 'JavaScript',
                           link:'https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language?rq=1',
                           info:'info',
@@ -156,7 +156,7 @@ angular.module('confusionApp')
                 {
                           _id:16,
                           name:'object II',
-                          image: '',
+                          image: 'images/16.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/yiwajarotu/edit?js,console',
                           info:'info',
@@ -165,11 +165,47 @@ angular.module('confusionApp')
                 {
                           _id:17,
                           name:'.dot vs [bracket] notation',
-                          image: '',
+                          image: 'images/dotvsbracket.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/lomitufoda/edit?js,console',
                           info:'info',
                           description:'Both are ways to add property/values to an object. Note: objects and arrays occupy a single space in memory. .dot notation: object.newProperty = newValue; [bracket] notation: object[newProperty] = newValue. Note: when you pass in a property as an argument, you must specify the property as a string. We use bracket notation when we need to pass in a property as an argument or when we are iterating over parameters of an object. Remember, a property name is a string, so if we pass in the property as an argument, has to be in quotes. To access the value of a property we can do: object.property or object["property"].'
+                        },
+                {
+                          _id:18,
+                          name:'.push() .pop() .unshift()',
+                          image: 'images/18.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/qugusotabe/edit?js,console',
+                          info:'info',
+                          description:'All array methods. .push() ads an item to end of array. .pop() removed last item of array. .unshift() adds to first item in array and shifts all other indexes by 1.'
+                        },
+                {
+                          _id:19,
+                          name:'Last Item in Array',
+                          image: 'images/19.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/dowukocapi/edit?js,console',
+                          info:'info',
+                          description:'var z = array[array.length - 1] will store the last item of an array into variable z'
+                        },
+                {
+                          _id:20,
+                          name:'Current Value in Array Iteration',
+                          image: 'images/20.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/pituferehi/2/edit?js,console',
+                          info:'info',
+                          description:'array[i] where i is the index of for loop, will give you current value of array in that iteration. An alternative way is to use .forEach() array method, and forEach iteration pass it an anon function that takes in value as first parameter. The .forEach() method will know that first argument in the callback function is the current iterator of the loop.'
+                        },
+                {
+                          _id:21,
+                          name:'for loop',
+                          image: 'images/21.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/pituferehi/2/edit?js,console',
+                          info:'info',
+                          description:'array[i] where i is the index of for loop, will give you current value of array in that iteration. An alternative way is to use .forEach() array method, and forEach iteration pass it an anon function that takes in value as first parameter. The .forEach() method will know that first argument in the callback function is the current iterator of the loop.'
                         },
 
                         ];
