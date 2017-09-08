@@ -88,7 +88,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'http://jsbin.com/jerucopudo/edit?js,console',
                           info:'info',
-                          description:' vs arguments: When we define a function, we can specify parameters (params). Parameters are placeholders to the values being passed as arguments into a function every time the function is called/invoked. ***A parameter is a reference to a value you pass in as an argument.'
+                          description:' vs arguments: When we define a function, we can specify parameters (params). Parameters are placeholders to the values being passed in as arguments into a function every time the function is called/invoked. ***A parameter is a reference to a value you pass in as an argument.'
                         },
                 {
                           _id:9,
@@ -169,7 +169,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'http://jsbin.com/lomitufoda/edit?js,console',
                           info:'info',
-                          description:'Both are ways to add property/values to an object. Note: objects and arrays occupy a single space in memory. .dot notation: object.newProperty = newValue; [bracket] notation: object[newProperty] = newValue. Note: when you pass in a property as an argument, you must specify the property as a string. We use bracket notation when we need to pass in a property as an argument or when we are iterating over parameters of an object. Remember, a property name is a string, so if we pass in the property as an argument, has to be in quotes. To access the value of a property we can do: object.property or object["property"].'
+                          description:'Both are ways to add property/values to an object. Note: objects and arrays occupy a single space in memory. .dot notation: object.newProperty = newValue; [bracket] notation: object[newProperty] = newValue. Note: when you pass in a property as an argument, in other words when you are calling a function with a property, you must specify the property as a string, aka in quotes. This is because the property is stored in memory as a string, and if you pass it in as a variable javascript will not know where that variable is defined. We use bracket notation (when we pass in a property as an argument) on the function definition side, on the parameter side of the function, to accept these properties that come in as an argument. If you try to accept a property using .dot notation, the function definition is going to expect the object.property property that is literally called "property". Rather, if you use [bracket] notation, when the property enters the function definition as an argument, such as object[property], the function will know you are passing in the property into the bracket notation. Remember, a property name is a string, so if we pass in the property as an argument, has to be in quotes. To access the value of a property we can do: object.property or object["property"].'
                         },
                 {
                           _id:18,
@@ -182,7 +182,7 @@ angular.module('confusionApp')
                         },
                 {
                           _id:19,
-                          name:'Last Item in Array',
+                          name:'last item in array',
                           image: 'images/19.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/dowukocapi/edit?js,console',
@@ -191,7 +191,7 @@ angular.module('confusionApp')
                         },
                 {
                           _id:20,
-                          name:'Current Value in Array Iteration',
+                          name:'current value in array iteration',
                           image: 'images/20.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/pituferehi/2/edit?js,console',
@@ -201,12 +201,59 @@ angular.module('confusionApp')
                 {
                           _id:21,
                           name:'for loop',
-                          image: 'images/21.PNG',
+                          image: 'images/211.PNG',
                           category: 'JavaScript',
-                          link:'http://jsbin.com/pituferehi/2/edit?js,console',
+                          link:'http://jsbin.com/kikiyamowi/edit?js,console',
                           info:'info',
-                          description:'array[i] where i is the index of for loop, will give you current value of array in that iteration. An alternative way is to use .forEach() array method, and forEach iteration pass it an anon function that takes in value as first parameter. The .forEach() method will know that first argument in the callback function is the current iterator of the loop.'
+                          description:'For loop is a basic way to iterate over a set of collections. Usually an array but sometimes can be an object. In a for loop we have 3 different statements followed by a block of code we will be iterating for each iteration. ***Remember that the code gets run first, then the iterator gets updated. In the first statement we define our iterator i. In second statement we define how many times we want the for loop to be iterated.In the third statement we choose to iterate the statement for each index. ***for loops aer used when you have a bunch of code you want to run over and over.'
                         },
+                {
+                          _id:22,
+                          name:'if, else if, else',
+                          image: 'images/22.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/kikiyamowi/edit?js,console',
+                          info:'info',
+                          description:'Any if statement is a fork in the road. Whatever in parenthesis evaluates to be true runs the immediate code only and skips over other forks in the for loop. In the example our first function call skipps the first if food===pizza statement and exists the loop when food === steak.'
+                        },
+                {
+                          _id:23,
+                          name:'this',
+                          image: 'images/23.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/fijugakade/edit?js,console',
+                          info:'info',
+                          description:'"this" is an important javascript keyword that allows us to access a variable of an object\'s property that a method or whatever on that object demands. "this" is used to reference the object at hand.'
+                        },
+                {
+                          _id:24,
+                          name:'how to reach your goals',
+                          image: 'images/24.PNG',
+                          category: 'Jordan Peterson',
+                          link:'https://www.youtube.com/user/JordanPetersonVideos',
+                          info:'info',
+                          description:'Start listening to yourself talk, and pay attention what you say is strong and weak. 1) Chip away at it, little bit everyday. 2) Don\'t wait for a large batch of time to do it because you probably won\'t have that time. 3) Don\'t do it perfectly, doing it badly quickly is good enough. 4) Don\'t do it like it is an assignment. 5) Don\'t do it for someone else. 6) Don\'t do it because you should do it, do it because you want to. 7) ***Do it so badly that you will do it. '
+                        },
+                {
+                          _id:25,
+                          name:'javascript object literal',
+                          image: 'images/25.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/hojizasube/edit?js,console',
+                          info:'info',
+                          description:'A javascript object literal is the notation of how objects are defined in javascript. It is a coma-separated list of name-value pairs wrapped in curly braces. Object literals encapsulate data, encoding it in a tidy packages. ***This minimizes the use of global variables. They can be any data type, including array, function, objects. Example below is a good showcase of different data types that cen be stored in a single javascript object literal notation:'
+                        },
+                {
+                          _id:26,
+                          name:'first class objects',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'',
+                          info:'info',
+                          description:'JavaScript supports constructing new functions during execution (dynamic) of a program, storing them in data structures, passing them as arguments to other functions, and returning them as values of other functions. A function is an instance of the Object type. A function has properties and has a link back to its constructor method. You can store a function in a variable. You can pass a function as a parameter to another function. You can return a function from a function. On a side note javascript supports Lexical scoping also known as static scoping. This is a convention used by many programming languages that sets the scope(range of functionality) of a variable so that it may be referenced from within the block of code in which it is defined. This is the basis of javascript closures.'
+                        },
+
+
 
                         ];
 
