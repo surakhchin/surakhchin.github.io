@@ -34,7 +34,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'https://www.google.com/search?num=100&safe=off&rlz=1C1CHBF_enUS742US742&q=javascript&oq=javascript&gs_l=serp.3..35i39k1l2j0i67k1l3j0j0i20k1l2j0i67k1l2.23896.24864.0.24981.10.10.0.0.0.0.115.725.7j1.8.0....0...1.1.64.serp..2.8.725...0i131k1.A8q65rp6VlQ',
                           info:'info',
-                          description:'Programming language of the web. Very versatile and popular. Javascript is popular because it is pretty much the only language you can use on the front end. Then node.js was created that took JavaSCript, added a few things to the langueage, and made it so it can function as a server side language. Server language is a program that is running on a computer. The program doesn\'t have a nice interface, but it can do stuff the computer and receive info and send it back. NodeJS makes JavaScript a C++ program, all different words get interpreted by C++. KEY CHARACTERISTICS: JavaScript is a high-level language meaning it has strong abstraction from details of computation. It is dynamic programming language meaning at runtime it executes many common programming behaviors that static languages perform during compilation. It is untyped, which allows operations to be performed on any type of data. JavaScript is object based, it uses the idea of encapsulating state and operations inside of objects. There are object based and object oriented languages. JavaScript is also multi-paradigm and is interpreted, meaning that it executes instructions directly to machine code without the need of a compiler via an interpreter.'
+                          description:'Programming language of the web. Very versatile and popular. Javascript is popular because it is pretty much the only language you can use on the front end. Then node.js was created that took JavaScript, added a few things to the language, and made it so it can function as a server side language. Server language is a program that is running on a computer. The program doesn\'t have a nice interface, but it can do stuff to the computer like receive info and send it back. NodeJS makes JavaScript a C++ program, all different words get interpreted by C++. KEY CHARACTERISTICS: JavaScript is a high-level language meaning it has strong abstraction from details of computation. It is dynamic programming language meaning at runtime it executes many common programming behaviors that static languages perform during compilation. It is untyped, which allows operations to be performed on any type of data. JavaScript is object based, it uses the idea of encapsulating state and operations inside of objects. There are object based and object oriented languages. JavaScript is also multi-paradigm and is interpreted, meaning that it executes instructions directly to machine code without the need of a compiler via an interpreter.'
                         },
                         {
                           _id:3,
@@ -52,7 +52,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'',
                           info:'info',
-                          description:'Programming Language is a set of instructions that were ultimately given to the computer. When we write thse instructions, we have different values that we manipulate, pass around, and do stuff with. Variables hold values. We user variables to manipulate data. We declare a variable using JS key word var and give the variable a name. Example: var name = "Ben". We then use assignment operator and assign the variable name with value Ben.  We use the variable name to reference the value. '
+                          description:'Programming Language is a set of instructions that were ultimately given to the computer. When we write these instructions, we have different values that we manipulate, pass around, and do stuff with. Variables hold values. We user variables to manipulate data. We declare a variable using JS keyword var and give the variable a name. Example: var name = "Ben". We then use assignment operator and assign the variable name with value Ben.  We use the variable name to reference the value. '
                         },
                         {
                           _id:5,
@@ -88,7 +88,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'http://jsbin.com/jerucopudo/edit?js,console',
                           info:'info',
-                          description:' vs arguments: When we define a function, we can specify parameters (params). Parameters are placeholders to the values being passed in as arguments into a function every time the function is called/invoked. ***A parameter is a reference to a value you pass in as an argument.'
+                          description:' vs arguments: When we define a function, we can specify parameters (params). Parameters are placeholders to the values being passed as arguments into a function every time the function is called/invoked. ***A parameter is a reference to a value you pass in as an argument.'
                         },
                 {
                           _id:9,
@@ -124,7 +124,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'http://jsbin.com/jiyitejumo/edit?js,console',
                           info:'info',
-                          description:'The forEach method executes a provided function once for each array element. Syntax: arr.forEach(function(currentValue,, index, array){//your iterator that does something with currentValue, index, or array})'
+                          description:'The .forEach() method executes a provided function once for each array element. Syntax: arr.forEach(function(currentValue,, index, array){//your iterator that does something with currentValue, index, or array})'
                         },
                 {
                           _id:13,
@@ -133,7 +133,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'http://jsbin.com/tuporemutu/edit?js,console',
                           info:'info',
-                          description:'An array method that is used when we want to transform a set of collections. The map method accumulates all the results into a collection, while the forEach method simply exectutes an action on each element and returns nothing. ***map method creates a new array with the results of calling a provided function on every element of the array. map and forEach are examples of methods that take in a callback function as an argument. We pass these methods an anonymous function when we invoke it. Notice in the example we take the results of the numbers.map() and pass those results into the var squares.  '
+                          description:'An array method that is used when we want to transform a set of collections. The .map() method accumulates all the results into a collection, while the .forEach() method simply exectutes an action on each element and returns nothing. ***map method creates a new array with the results of calling a provided function on every element of the array. .map() and .forEach() are examples of methods that take in a callback function as an argument. We pass these methods an anonymous function when we invoke it. Notice in the example we take the results of the numbers.map() and pass those results into the var squares.  '
                         },
                 {
                           _id:14,
@@ -142,7 +142,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language?rq=1',
                           info:'info',
-                          description:'The data associated with passed variable is not copied when passed to the function, and thus any modification made by the function to the passed ariable will be retained after the function call terminates. An example of this would be me giving you a URL to my website. I am passing you my website by the reference of a URL.'
+                          description:'The data associated with passed variable is not copied when passed to the function, and thus any modification made by the function to the passed variable will be retained after the function call terminates. An example of this would be me giving you a URL to my website. I am passing you my website by the reference of a URL.'
                         },
                 {
                           _id:15,
@@ -165,11 +165,11 @@ angular.module('confusionApp')
                 {
                           _id:17,
                           name:'.dot vs [bracket] notation',
-                          image: 'images/dotvsbracket.PNG',
+                          image: 'images/17.PNG',
                           category: 'JavaScript',
-                          link:'http://jsbin.com/lomitufoda/edit?js,console',
+                          link:'http://jsbin.com/nufomireku/edit?js,console',
                           info:'info',
-                          description:'Both are ways to add property/values to an object. Note: objects and arrays occupy a single space in memory. .dot notation: object.newProperty = newValue; [bracket] notation: object[newProperty] = newValue. Note: when you pass in a property as an argument, in other words when you are calling a function with a property, you must specify the property as a string, aka in quotes. This is because the property is stored in memory as a string, and if you pass it in as a variable javascript will not know where that variable is defined. We use bracket notation (when we pass in a property as an argument) on the function definition side, on the parameter side of the function, to accept these properties that come in as an argument. If you try to accept a property using .dot notation, the function definition is going to expect the object.property property that is literally called "property". Rather, if you use [bracket] notation, when the property enters the function definition as an argument, such as object[property], the function will know you are passing in the property into the bracket notation. Remember, a property name is a string, so if we pass in the property as an argument, has to be in quotes. To access the value of a property we can do: object.property or object["property"].'
+                          description:'Both are ways to add property/values to an object. Note: objects and arrays occupy a single space in memory. .dot notation: object.newProperty = newValue; [bracket] notation: object[newProperty] = newValue. Note: when you pass in a property as an argument, in other words when you are calling a function with a property, you must specify the property as a string, aka in quotes. This is because the property is stored in memory as a string, and if you pass it in as a variable javascript will not know where that variable is defined. We use bracket notation (when we pass in a property as an argument) on the function definition side, on the parameter side of the function, to accept these properties that come in as arguments. If you try to accept a property using .dot notation, the function definition is going to expect the object.property property that is literally called "property". Rather, if you use [bracket] notation, when the property enters the function definition as an argument (in other words the value is being handed to the parameter), such as object[property], the function will know you are passing in the property into the bracket notation. Remember, a property name is a string, so if we pass in the property as an argument, has to be in quotes. To access the value of a property we can do: object.property or object["property"].'
                         },
                 {
                           _id:18,
