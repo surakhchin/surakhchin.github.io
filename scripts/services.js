@@ -218,7 +218,7 @@ angular.module('confusionApp')
                         },
                 {
                           _id:23,
-                          name:'this',
+                          name:'this keyword',
                           image: 'images/23.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/fijugakade/edit?js,console',
@@ -251,6 +251,33 @@ angular.module('confusionApp')
                           link:'',
                           info:'info',
                           description:'JavaScript supports constructing new functions during execution (dynamic) of a program, storing them in data structures, passing them as arguments to other functions, and returning them as values of other functions. A function is an instance of the Object type. A function has properties and has a link back to its constructor method. You can store a function in a variable. You can pass a function as a parameter to another function. You can return a function from a function. On a side note javascript supports Lexical scoping also known as static scoping. This is a convention used by many programming languages that sets the scope(range of functionality) of a variable so that it may be referenced from within the block of code in which it is defined. This is the basis of javascript closures.'
+                        },
+                {
+                          _id:27,
+                          name:'prototype',
+                          image: 'images/27.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/jitasatewa/edit?js,console',
+                          info:'info',
+                          description:'In the example below the code is testing that Array is a JavaScript object with a capital A, we are adding a custom method or creating a prototype sayHi, then we are adding this prototype to all array type objects. ***All array objects inherit this new sayHi function from now on because we added it as a prototype to Array global object. Now we can call this method because we added it to every single array that we create like var array in the example.'
+                        },
+                {
+                          _id:28,
+                          name:'constructors',
+                          image: 'images/28.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/fovohozuri/edit?js,console',
+                          info:'info',
+                          description:'Constructors in Javascript are ***blueprints to custom objects we want to create. In the example the blueprint is Cat. We create our blueprints using function keyword followed by a capital letter name for our constructor blueprint. In the example we are using options object as a parameter/placeholder for the custom new object we will be passing in later as an argument. When we finally want to utilize this blueprint we use the keyword new to create our new object based on the constructor blueprint, in the example we say var snowball = new Cat({//the new cat\'s properties}). So essentially what we are doing is we are creating a new Cat object using the Cat constructor blueprint, and then we are passing this new object we create based off of that blueprint into the variable name snowball. Now really in the practical sense we would not be passing this new object into the var snowball, but we would be passing this new cat object into an array of cats, because we can always reffer to each specific cat name by accessing the name property, so what we would do is create a cats array and use .push(), something like var cats = []; cats.push(new Cat({//the new cat\'s properties})); What is interesting with constructors is that we are using function keyword, then we passing in an options object, and assigning, using the equal sign = to assign the option property values into this.name property. Javascript will know that this. will be replaced with the custom object name we assign later, either var snowball. or cats[0]. BOTTOM LINE CONFUSION: CONSTRUCTORS USE ASSIGNMENT EQUALS SIGN AND OBJECTS USE SEMICOLON SIGN'
+                        },
+                {
+                          _id:29,
+                          name:'prototype II',
+                          image: 'images/29.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/nobofisuge/edit?js,console',
+                          info:'info',
+                          description:'Best practice is to move method definitions away from constructors and store them in custom prototypes. This is so we have one .meow() function to hypothetically a thousand custom cat objects, instead of each custom cat object having their own exact same meow function. It is away to have clean code and more functional code. A way to minimize memory storage and a solution to scalability issues with Javascript. *** by creating a cat prototype .meow() we have one place in memory all 1k cat objects can use. The cat prototype has a single function on it, and all cat objects inherit from this prototype. Remember inheritance goes hand in hand with prototypes. Another way to look at this is all cat objects remember the prototype that is on their constructor blueprint, so when we make snowball by saying var snowball = new Cat({//cat properties}), the snowball object remembers its constructor and that the constructor has a prototype on it. We use prototypes on constructors because if the function is huge and expensive we don\'t want to copy the function every time we create an object in memory. Snowball objects remembers its constructor and the prototypes on it.'
                         },
 
 
