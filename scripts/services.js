@@ -250,7 +250,7 @@ angular.module('confusionApp')
                           category: 'JavaScript',
                           link:'',
                           info:'info',
-                          description:'JavaScript supports constructing new functions during execution (dynamic) of a program, storing them in data structures, passing them as arguments to other functions, and returning them as values of other functions. A function is an instance of the Object type. A function has properties and has a link back to its constructor method. You can store a function in a variable. You can pass a function as a parameter to another function. You can return a function from a function. On a side note javascript supports Lexical scoping also known as static scoping. This is a convention used by many programming languages that sets the scope(range of functionality) of a variable so that it may be referenced from within the block of code in which it is defined. This is the basis of javascript closures.'
+                          description:'First-class functions: A function can be treated the same way as any other variable. JavaScript supports constructing new functions during execution (dynamic) of a program, storing them in data structures, passing them as arguments to other functions, and returning them as values of other functions. A function is an instance of the Object type. A function has properties and has a link back to its constructor method. You can store a function in a variable. You can pass a function as a parameter to another function. You can return a function from a function. On a side note javascript supports Lexical scoping also known as static scoping. This is a convention used by many programming languages that sets the scope(range of functionality) of a variable so that it may be referenced from within the block of code in which it is defined. This is the basis of javascript closures.'
                         },
                 {
                           _id:27,
@@ -278,6 +278,33 @@ angular.module('confusionApp')
                           link:'http://jsbin.com/nobofisuge/edit?js,console',
                           info:'info',
                           description:'Best practice is to move method definitions away from constructors and store them in custom prototypes. This is so we have one .meow() function to hypothetically a thousand custom cat objects, instead of each custom cat object having their own exact same meow function. It is away to have clean code and more functional code. A way to minimize memory storage and a solution to scalability issues with Javascript. *** by creating a cat prototype .meow() we have one place in memory all 1k cat objects can use. The cat prototype has a single function on it, and all cat objects inherit from this prototype. Remember inheritance goes hand in hand with prototypes. Another way to look at this is all cat objects remember the prototype that is on their constructor blueprint, so when we make snowball by saying var snowball = new Cat({//cat properties}), the snowball object remembers its constructor and that the constructor has a prototype on it. We use prototypes on constructors because if the function is huge and expensive we don\'t want to copy the function every time we create an object in memory. Snowball objects remembers its constructor and the prototypes on it.'
+                        },
+                {
+                          _id:30,
+                          name:'closures',
+                          image: '',
+                          category: 'JavaScript',
+                          link:'',
+                          info:'info',
+                          description:'A function defined inside another function has access to all the variables declared in the outer function (outer scope). The inner function will continue to have access to the variables from the outer scope even after the outer function has returned.'
+                        },
+                {
+                          _id:31,
+                          name:'null keyword',
+                          image: 'images/31.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/menocewevo/edit?js,console',
+                          info:'info',
+                          description:'null means nothing, it is not an object type and returns value false. This can be useful for conditional statements, for example if(null) will return false. If anything equates to empty the condition is going to be false. This is important because  in Javascript we often test if(object) to see if that object exists or if it has been created. Doesn\'t have to be an object could be any data type as long as not null will return true.  '
+                        },
+                {
+                          _id:32,
+                          name:'for in loop',
+                          image: 'images/32.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/gawetotuwe/1/edit?js,console',
+                          info:'info',
+                          description:'For in loop is used for iterating over properties or keys of objects. We can use the for in loop to capture property names (string type) and property values (values can be any type in js objects). For example we say for(var key in user) {console.log(key); console.log(user[key]);} The important message is the var key you are creating, technically can be any placeholder name. In our example key is the iterator for the property name in string form. When we wrap key in brackets it allows us to dynamically access the properties. Note that we can\'t use dot notation and say user.key bc it will look for a property on object that is named key. So to sum it up bracket notation used by for in loop is similar to bracket notation used in regular for loops. We use bracket notations when we want to iterate over objects properties. '
                         },
 
 
