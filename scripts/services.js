@@ -68,9 +68,9 @@ angular.module('confusionApp')
                           name:'function(value)',
                           image: 'images/6.PNG',
                           category: 'JavaScript',
-                          link:'',
+                          link:'http://jsbin.com/terinagacu/edit?js,console',
                           info:'info',
-                          description:'There is a value in JavaScript that references a whole block of code, or a list of instructions. These values are called functions, which are "reusable packets of code." Note: function is a value, but we use function key word (not var) to assign the function its value. *** A function is a block of code that we wrap in a variable name and use that name with () to execute that block of code. Example: function sayHi() {console.log("Hello");}. Here we define a function sayHi, we can then invoke/call this function by typing: sayHi();. When the code catches up with this line it will look for our function definition and execute the instructions accordingly.'
+                          description:'There is a value in JavaScript that references a whole block of code, or a list of instructions. These values are called functions, which are "reusable packets of code." Note: function is a value, but we use function key word (not var) to assign the function its value. *** A function is a block of code that we wrap in a variable name and use that name with () to execute that block of code. Example: function sayHi() {console.log("Hello");}. Here we define a function sayHi, we can then invoke/call this function by typing: sayHi();. When the code catches up with this line it will look for our function definition and execute the instructions accordingly. In example below we show that there are 2 assign a function a name. In the first example we name the function before we define it, and in the second we first created an anonymous function, and then pass that function definition into a variable sayHi2. The second method of using anonymous functions is a very important aspect of JavaScript.   '
                         },
                 {
                           _id:7,
@@ -305,6 +305,15 @@ angular.module('confusionApp')
                           link:'http://jsbin.com/gawetotuwe/1/edit?js,console',
                           info:'info',
                           description:'For in loop is used for iterating over properties or keys of objects. We can use the for in loop to capture property names (string type) and property values (values can be any type in js objects). For example we say for(var key in user) {console.log(key); console.log(user[key]);} The important message is the var key you are creating, technically can be any placeholder name. In our example key is the iterator for the property name in string form. When we wrap key in brackets it allows us to dynamically access the properties. Note that we can\'t use dot notation and say user.key bc it will look for a property on object that is named key. So to sum it up bracket notation used by for in loop is similar to bracket notation used in regular for loops. We use bracket notations when we want to iterate over objects properties. '
+                        },
+                                {
+                          _id:33,
+                          name:'callback functions',
+                          image: 'images/33.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/kufumol/edit?js,console',
+                          info:'info',
+                          description:'A callback is a set of instructions we hand to a function(inform of a parameter and as a function) when we are calling it. After this function runs some tests with the other parameters you handed it, it will take your callback and with the return values (closures) specified in that function\'s callback definition, will return the caller a result usually a in form of a javascript object. This form of calling a function is used in nodeJS and the example below is a basic method of how node modules are defined and called in an application. In an actual node module you would set var rect to module.exports and in the file you wish to use the node module you would type require(\'node-module-file\'). Also in an actual node module for error handling you use Try Catch combo and if (error) throw new Error();. The reason for node\'s use of callbacks in this form is to create asynchronous nonblocking i/o...i think.'
                         },
 
 
