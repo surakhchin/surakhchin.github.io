@@ -282,11 +282,11 @@ angular.module('confusionApp')
                 {
                           _id:30,
                           name:'closures',
-                          image: '',
+                          image: 'images/30.PNG',
                           category: 'JavaScript',
-                          link:'',
+                          link:'http://jsbin.com/nalixut/edit?js,console',
                           info:'info',
-                          description:'A function defined inside another function has access to all the variables declared in the outer function (outer scope). The inner function will continue to have access to the variables from the outer scope even after the outer function has returned.'
+                          description:'A function defined inside another function has access to all the variables declared in the outer function (outer scope). The inner function will continue to have access to the variables from the outer scope even after the outer function has returned. If you return a function from a functioin, the function that gets returned remembers the scope of the function it was returned from. In the first example the innter function remembers the scope of the outer. closures = return something. Just like you can pass a function you can also return a function. In the second example we can uses closures to limit how many times a function is called. '
                         },
                 {
                           _id:31,
@@ -314,6 +314,15 @@ angular.module('confusionApp')
                           link:'http://jsbin.com/kufumol/edit?js,console',
                           info:'info',
                           description:'A callback is a set of instructions we hand to a function(inform of a parameter and as a function) when we are calling it. After this function runs some tests with the other parameters you handed it, it will take your callback and with the return values (closures) specified in that function\'s callback definition, will return the caller a result usually a in form of a javascript object. This form of calling a function is used in nodeJS and the example below is a basic method of how node modules are defined and called in an application. In an actual node module you would set var rect to module.exports and in the file you wish to use the node module you would type require(\'node-module-file\'). Also in an actual node module for error handling you use Try Catch combo and if (error) throw new Error();. The reason for node\'s use of callbacks in this form is to create asynchronous nonblocking i/o...i think. "***That illustrates to you how you would define a node module and then you would supply a callback function when you call that node module and then the node module can invoke the callback function to send back information to you and execute the code inside the callback function." The node module sends its information into the callback parameter, so when we utilize the callback function we write code that uses that juicy parameter to display the object that came in for example rectangle.area().'
+                        },
+                {
+                          _id:34,
+                          name:'fibonacci',
+                          image: 'images/34.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/jutuyu/edit?js,console',
+                          info:'info',
+                          description:'Fibonaccis go fractal mode untill all base cases eacn each recursion are reached and then all of them get added up and sum is returned. The execution trickle down till all base cases then shoots back up collecting all the ones. Recursions are functions that call themselves inside of themselves. Recursions depending on a situations can make it much esier to iterate over a value. It is essentially another way of iterating/repeating something.'
                         },
 
 
@@ -394,7 +403,7 @@ var samples=[
                           image: 'images/main.png',
                           url: 'https://surakhchin.github.io/gcsfund',
                           date: '8/16/2017',
-                          description:'Django web app embedded with custom javascript and html buttons/inputs.'
+                          description:'Django web app embedded with custom javascript, ajax, html buttons and inputs.'
                         },
                         {
                           _id:1,
