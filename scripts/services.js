@@ -333,6 +333,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'Allows you to run a linux instance on a cloud using amazon web services. Before we run an instance we need to enable inbound ssh traffic from our IP addreess to our instance. This ensures that the same group associated with your instance allows incomming SSH traffic by default. Security groups enable you to controlltraffic to our instance. To enable network access to an instance, you must allow inbound traffic to the instance. To do this you must add a rule to your main security group that is associated with the instance.'
                         },
+                {
+                          _id:36,
+                          name:'XMLHttpRequest object',
+                          image: 'images/36.PNG',
+                          category: '',
+                          link:'http://jsbin.com/pununus/edit?html,js,console,output',
+                          info:'info',
+                          description:'Ajax is asynchronous Javascript and XML/JSON. Ajax uses Javascript XMLHttpRequest object in order to make http requests behind the scenes. Ajax uses this object to look up data rather than use the typical http request that is initiated via the URL Bar. Big part of ajax is requesting the right URL at the right moment. Ajax is a process of sending and receiving data on the fly without a page reload. In the example 1) The web browser is gonna expect us to use a method called open(), it is our chance to say what we want to do. It takes 2 arguments send or receive, GET/POST, and URL of the data. 2)Next, we need to do something with GET data when in comes in so we specify an onload() anon function and we assign our new var ourData to the json parsed ourRequest.responseText. We then consolelog ourData variable as a javascript object array. The last thing we need to do is officially .send() ourRequest. This will initiate a GET request to server, to get JSON object, parse it to javascript object, and console log response on load. Ajax baby! In the second example we make use of jquery\'s success & error method of making an XMLHttpRequest.  '
+                        },
 
 
 
