@@ -324,6 +324,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'Fibonaccis go fractal mode untill all base cases eacn each recursion are reached and then all of them get added up and sum is returned. The execution trickle down till all base cases then shoots back up collecting all the ones. Recursions are functions that call themselves inside of themselves. Recursions depending on a situations can make it much esier to iterate over a value. It is essentially another way of iterating/repeating something.'
                         },
+                {
+                          _id:35,
+                          name:'amazon elastic cloud 2',
+                          image: '',
+                          category: '',
+                          link:'',
+                          info:'info',
+                          description:'Allows you to run a linux instance on a cloud using amazon web services. Before we run an instance we need to enable inbound ssh traffic from our IP addreess to our instance. This ensures that the same group associated with your instance allows incomming SSH traffic by default. Security groups enable you to controlltraffic to our instance. To enable network access to an instance, you must allow inbound traffic to the instance. To do this you must add a rule to your main security group that is associated with the instance.'
+                        },
 
 
 
