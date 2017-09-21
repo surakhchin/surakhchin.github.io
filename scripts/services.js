@@ -342,6 +342,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'Ajax is asynchronous Javascript and XML/JSON. Ajax uses Javascript XMLHttpRequest object in order to make http requests behind the scenes. Ajax uses this object to look up data rather than use the typical http request that is initiated via the URL Bar. Big part of ajax is requesting the right URL at the right moment. Ajax is a process of sending and receiving data on the fly without a page reload. In the example 1) The web browser is gonna expect us to use a method called open(), it is our chance to say what we want to do. It takes 2 arguments send or receive, GET/POST, and URL of the data. 2)Next, we need to do something with GET data when in comes in so we specify an onload() anon function and we assign our new var ourData to the json parsed ourRequest.responseText. We then consolelog ourData variable as a javascript object array. The last thing we need to do is officially .send() ourRequest. This will initiate a GET request to server, to get JSON object, parse it to javascript object, and console log response on load. Ajax baby! In the second example we make use of jquery\'s success & error method of making an XMLHttpRequest.  '
                         },
+                {
+                          _id:37,
+                          name:'blockchain',
+                          image: 'images/37.jpg',
+                          category: '',
+                          link:'',
+                          info:'info',
+                          description:'An indestructible ledger containing independently distributed information, copied across many self-replicating data stores. A database is a series of bytes that is managed by a database management system. A data store is a repository for persistently storing and managing collection of data which include not just repositories like databases but also simpler stores such as files or emails. '
+                        },
 
 
 
