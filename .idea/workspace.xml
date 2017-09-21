@@ -45,8 +45,8 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="345" column="33" lean-forward="true" selection-start-line="345" selection-start-column="33" selection-end-line="345" selection-end-column="33" />
+            <state relative-caret-position="790">
+              <caret line="369" column="832" lean-forward="true" selection-start-line="369" selection-start-column="832" selection-end-line="369" selection-end-column="832" />
               <folding />
             </state>
           </provider>
@@ -730,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/demodetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -796,10 +788,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="345" column="33" lean-forward="true" selection-start-line="345" selection-start-column="33" selection-end-line="345" selection-end-column="33" />
+        <state relative-caret-position="790">
+          <caret line="369" column="832" lean-forward="true" selection-start-line="369" selection-start-column="832" selection-end-line="369" selection-end-column="832" />
           <folding />
         </state>
       </provider>

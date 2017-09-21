@@ -351,6 +351,24 @@ angular.module('confusionApp')
                           info:'info',
                           description:'An indestructible ledger containing independently distributed information, copied across many self-replicating data stores. A database is a series of bytes that is managed by a database management system. A data store is a repository for persistently storing and managing collection of data which include not just repositories like databases but also simpler stores such as files or emails. '
                         },
+                {
+                          _id:38,
+                          name:'networking terms',
+                          image: '',
+                          category: '',
+                          link:'',
+                          info:'info',
+                          description:'FQDN:fully qualified domain name. ACME: Automated Certificate Management Environment, this automates i/a b/w CA (certificate authority) and their users web servers (express/node). SSL: Secure sockets layer and TLS transport layer security, cryptographic protocols provide communication security over networks. A certificate is used for HTTPS connection. ***The HTTPS protocol uses the SSL protocol to establish secure connection over the HTTP layer. IP internet protocol, standard format for communication. OSI open systems interconnection model. TTLS:EAP extensible authentication protocol that encapsulates a TLS (transport security server) consisting of 1 min to propagate TTLS. For AWS, before using elastic load balancing, you must configure one or omre listeners for your classic load balancer. Listener is a process that checks for connection requests.  '
+                        },
+                {
+                          _id:39,
+                          name:'JSON server',
+                          image: '',
+                          category: 'nodejs',
+                          link:'',
+                          info:'info',
+                          description:'JSON server is a node module. It is a server that serves up JSON data that you store in a simple json text file. In addition it provides simple support for delivering static resources that you can put in a folder and then the server will serve up those resources. install: npm install json-server-g . Next createa json-folder in your project folder. Here we add our json file we wish to serve up. In our command promt in the location of the json file, we start our server by typing: json-server --watch jsonfile.json. In the browser the server will ALSO serve files  we put in a public folder over the localhost:3000. JSON server does two thigns: it serves static files in our public folder of our project, and when there are HTTP requests to localhost:3000 I will return them the .json file.'
+                        },
 
 
 
