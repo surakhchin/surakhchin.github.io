@@ -369,6 +369,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'JSON server is a node module. It is a server that serves up JSON data that you store in a simple json text file. In addition it provides simple support for delivering static resources that you can put in a folder and then the server will serve up those resources. install: npm install json-server-g . Next createa json-folder in your project folder. Here we add our json file we wish to serve up. In our command promt in the location of the json file, we start our server by typing: json-server --watch jsonfile.json. In the browser the server will ALSO serve files  we put in a public folder over the localhost:3000. JSON server does two thigns: it serves static files in our public folder of our project, and when there are HTTP requests to localhost:3000 I will return them the .json file.'
                         },
+                {
+                          _id:40,
+                          name:'client-server communication',
+                          image: '',
+                          category: 'nodejs',
+                          link:'',
+                          info:'info',
+                          description:'Communication between client and server is facilitated by the Http protocol hypertext transfer protocol which allows retrieval of interlinked (hypertext) text documents. When you write apps you need to recognize the asynchronous nature of communication. Data is not instantaneously available. JSON is often the format used to exchange data, it is a language independent lightweight data interchange format. For example we have a host server that allows GET operations on its server. Once a client requests a get operation onto the host server, and it can respond with http message object that contains information about the request and response.'
+                        },
 
 
 
