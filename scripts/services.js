@@ -382,10 +382,19 @@ angular.module('confusionApp')
                           _id:41,
                           name:'addEventListener',
                           image: 'images/41.PNG',
-                          category: 'HTML',
+                          category: 'HTML Javascript jQuery',
                           link:'http://jsbin.com/kemolu/edit?html,js,console,output',
                           info:'info',
                           description:'With HTML DOM addEventListener method we can attach multiple listeners to a single element on our page. Most common need for this is if you have an onclick function assigned to a button via its onclick dom property, you can only run one function on that property. To solve this problem we assign the events to this method and keeps track of events on each element. In example 1 we are not adding parenthesis because we are setting .onlick to be the function not the invocation of the function, if we to put parenthesis our function clickListener will be immediately executed and it would not be set up as an event listener. example 1 is exact same thing as if you did inline onclick="clickListener()". The problem with this is we can only assign one function to this property. Example 2 uses addEventListener object to solve this problem. Here we attach event listeners to nodes 1 by 1 so multiple event listeners /functions can sit on a node. This method keeps track of all the event listeners by type and what function. In example 3 if u have repeated code you can use a bind function so you only pass in parameters. In example 4 we are using jQuery terminology to adding event listeners to our element selectors. The first part $(function(){//code here}); is  jQuery short hand version of saying $(document).ready(function() { ... }); in other words wrap your jquery code around here so no matter were you put your jquery code (top of page or bottom or external) it won\'t be executed until the DOM loads up and selectors or what not can match up the DOM. A way to avoid this is to write your DOM/jquery code on bottom of your code at end of the body. Note .bind event and .on event are the same thing.'
+                        },
+                {
+                          _id:42,
+                          name:'jQuery UI autocomplete/ajax example',
+                          image: 'images/42.PNG',
+                          category: 'JavaScript',
+                          link:'http://jsbin.com/xeqitej/edit?html,js,output',
+                          info:'info',
+                          description:'Note in particular the jquery UI and jquery CDNs, useful when you want yo use jQuery and fancy $ sign. Once again we are seeing jQuery theme of $(function(){...}); method of defining load code when document is ready.'
                         },
 
 
