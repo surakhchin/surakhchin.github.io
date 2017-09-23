@@ -389,12 +389,12 @@ angular.module('confusionApp')
                         },
                 {
                           _id:42,
-                          name:'jQuery UI autocomplete/ajax example',
+                          name:'autocomplete',
                           image: 'images/42.PNG',
                           category: 'JavaScript',
                           link:'http://jsbin.com/xeqitej/edit?html,js,output',
                           info:'info',
-                          description:'Note in particular the jquery UI and jquery CDNs, useful when you want yo use jQuery and fancy $ sign. Once again we are seeing jQuery theme of $(function(){...}); method of defining load code when document is ready.'
+                          description:'autocomplete is jQuery UI method that autocompletes  a source: [array]; In the example case we are setting the source to be the return value of an ajax call that will return us an array of cities. Note in particular the jquery UI and jquery CDNs, useful when you want yo use jQuery and the fancy $ sign. Once again we are seeing jQuery theme of $(function(){...}); method of defining "load code when document is ready."'
                         },
 
 
