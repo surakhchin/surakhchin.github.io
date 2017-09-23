@@ -378,6 +378,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'Communication between client and server is facilitated by the Http protocol hypertext transfer protocol which allows retrieval of interlinked (hypertext) text documents. When you write apps you need to recognize the asynchronous nature of communication. Data is not instantaneously available. JSON is often the format used to exchange data, it is a language independent lightweight data interchange format. For example we have a host server that allows GET operations on its server. Once a client requests a get operation onto the host server, and it can respond with http message object that contains information about the request and response.'
                         },
+                {
+                          _id:41,
+                          name:'addEventListener',
+                          image: 'images/41.PNG',
+                          category: 'HTML',
+                          link:'http://jsbin.com/kemolu/edit?html,js,console,output',
+                          info:'info',
+                          description:'With HTML DOM addEventListener method we can attach multiple listeners to a single element on our page. Most common need for this is if you have an onclick function assigned to a button via its onclick dom property, you can only run one function on that property. To solve this problem we assign the events to this method and keeps track of events on each element. In example 1 we are not adding parenthesis because we are setting .onlick to be the function not the invocation of the function, if we to put parenthesis our function clickListener will be immediately executed and it would not be set up as an event listener. example 1 is exact same thing as if you did inline onclick="clickListener()". The problem with this is we can only assign one function to this property. Example 2 uses addEventListener object to solve this problem. Here we attach event listeners to nodes 1 by 1 so multiple event listeners /functions can sit on a node. This method keeps track of all the event listeners by type and what function. In example 3 if u have repeated code you can use a bind function so you only pass in parameters.'
+                        },
 
 
 
