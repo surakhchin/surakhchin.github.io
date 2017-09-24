@@ -396,6 +396,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'autocomplete is jQuery UI method that autocompletes  a source: [array]; In the example case we are setting the source to be the return value of an ajax call that will return us an array of cities. Note in particular the jquery UI and jquery CDNs, useful when you want yo use jQuery and the fancy $ sign. Once again we are seeing jQuery theme of $(function(){...}); method of defining "load code when document is ready."'
                         },
+                {
+                          _id:43,
+                          name:'$http service',
+                          image: 'images/42.PNG',
+                          category: 'Angularjs REST',
+                          link:'http://jsbin.com/kazutak/edit?html,js',
+                          info:'info',
+                          description:'$http is a core angular service to communicate with servers using the Http protocol. It is asynchronous in nature that uses a promise in form of a method .then(). It runs functions asynchronously and uses the return value in form of a success or error when processed. ***The $http service returns a promise, either success or error. With the $http service, within your app you consume data exported by the server. In the example below we construct a full $http service and in the second example we divide the service side that deals with server under services.js file and service side that deals with our angular app in controller.js file. This is an example of model view controller architecture, as we are separating model/services concerns with controller/app concerns. Later on this will be useful because with the structure we can pass secure data in a logical structural way through the controllers, services, server, and ultimately the database. This chain of events is often facilitated by restful api services offered by full fledged restful api server setups. An easy explanation to restful apis and apis in general is that api is an interface, it is a middle man between 2 parties. Restful api is the serverside middleman with configurations you create to handle front end rest like requests in form of URIs in url bar or URIs in ajax calls, combined with Rest verbs Post put get delete we create a middleman exchange that can process custom uri that represent data to be stored in databases.'
+                        },
 
 
 
