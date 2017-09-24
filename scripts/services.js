@@ -399,7 +399,7 @@ angular.module('confusionApp')
                 {
                           _id:43,
                           name:'$http service',
-                          image: 'images/42.PNG',
+                          image: 'images/43.PNG',
                           category: 'Angularjs REST',
                           link:'http://jsbin.com/kazutak/edit?html,js',
                           info:'info',
