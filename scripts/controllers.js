@@ -36,6 +36,9 @@ angular.module('confusionApp')
                 else if (setTab === 5) {
                     $scope.filtText = "Angular";
                 }
+                else if (setTab === 6) {
+                    $scope.filtText = "Node";
+                }
                 else {
                     $scope.filtText = "";
                 }
@@ -134,7 +137,7 @@ angular.module('confusionApp')
 
 			$scope.showForm2 = false;
 
-			if ($scope.sample._id === 4) {
+			if ($scope.sample._id === 6 || $scope.sample._id === 0) {
 
 				$scope.showForm2 = true;
 			}
@@ -150,6 +153,7 @@ angular.module('confusionApp')
 
 //-------------------------------------------------------------------------------------
  	    .controller('JumboController', ['$scope', '$anchorScroll', '$location', function($scope, $anchorScroll, $location) {
+
 
  	    	$scope.pointer = 'app';
 
@@ -249,6 +253,9 @@ angular.module('confusionApp')
         }])
 
         .controller('DishDetailController', ['$scope', '$stateParams', 'demoFactory', '$window', function($scope, $stateParams, demoFactory, $window) {
+
+
+
 
             var dish= demoFactory.getDish(parseInt($stateParams.id,10));
             

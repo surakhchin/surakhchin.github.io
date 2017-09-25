@@ -337,7 +337,7 @@ angular.module('confusionApp')
                           _id:36,
                           name:'XMLHttpRequest object',
                           image: 'images/36.PNG',
-                          category: '',
+                          category: 'XHR Javascript',
                           link:'http://jsbin.com/pununus/edit?html,js,console,output',
                           info:'info',
                           description:'Ajax is asynchronous Javascript and XML/JSON. Ajax uses Javascript XMLHttpRequest object in order to make http requests behind the scenes. Ajax uses this object to look up data rather than use the typical http request that is initiated via the URL Bar. Big part of ajax is requesting the right URL at the right moment. Ajax is a process of sending and receiving data on the fly without a page reload. In the example 1) The web browser is gonna expect us to use a method called open(), it is our chance to say what we want to do. It takes 2 arguments send or receive, GET/POST, and URL of the data. 2)Next, we need to do something with GET data when in comes in so we specify an onload() anon function and we assign our new var ourData to the json parsed ourRequest.responseText. We then consolelog ourData variable as a javascript object array. The last thing we need to do is officially .send() ourRequest. This will initiate a GET request to server, to get JSON object, parse it to javascript object, and console log response on load. Ajax baby! In the second example we make use of jquery\'s success & error method of making an XMLHttpRequest.  '
@@ -412,7 +412,7 @@ angular.module('confusionApp')
                           category: 'REST',
                           link:'',
                           info:'info',
-                          description:'REST: Representational State Transfer,is a style of software architecture for distributed hypermedia systems such as the World Wide Web. It was designed by Roy Fielding and is a collection of network architecture principles which outline how resources are defined and addressed. There are 4 core principles. 1) Use HTTP methods explicitly(clearly). 2) Be stateless, burden of keeping track of state is role of the client. The server only cares for requests and handling them. 3) Expose directory structure like URIs. 4) Transfer data using JSON/XML. The point of REST was to capture all the successful characteristics that made the WWW popular. URIs that look like URLs were familiar from WWW and is what made WWW successful. Hypertext is simply text with hyperlinks. Hyperlinks or simply links is a reference to data a user can click. The motivation for rest was to capture the characteristics of the web that made it successful. These successes include URIs uniform resource indicator aka addressable resources, and the use of HTTP protocol to make requests, receive response, and display response. In terms of what it means when people say RESTful API, first an API in an interface meaning it is a middleman between 2 things. RESTful API is the serverside middleman between client requests and database queries. When a job is asking for someone with RESTful API experience they can either mean 1 of 2 things. Either someone who has experience consuming RESTful APIs, meaning someone who has experience working on the front end client side making GET requests to a server under a specific URI and then getting a response back from the server. When you request data from the server using a RESTful URI you are asking for that data and consuming it when it comes back. Generally you consume it by parsing the incoming JSON data into a JavaScript object notation and then use javascript to manipulate the object accordingly, like display it on a page. A second example of what a job description might mean for RESTful experience is someone who has experience setting up/ creating RESTful apis on the server. This person has experience working on a web server such as Express/NodeJS, to create Routes, that accept and do something with incoming custom URI GET requests for example. This person then has to Route these incoming requests with a handler to a particular database query search for instance, so the server can pass that restful request back to the caller wanting to consume the service. With REST there is 2 sides of the coin, one that consumes the restful service, and one that routes the restful service. The so called "endpoint" for these 2 sides is the URI that links the 2 services together.   '
+                          description:'REST: Representational State Transfer, is a style of software architecture for distributed hypermedia systems such as the World Wide Web. It was designed by Roy Fielding and is a collection of network architecture principles which outline how resources are defined and addressed. There are 4 core principles. 1) Use HTTP methods explicitly(clearly). 2) Be stateless, burden of keeping track of state is role of the client. The server only cares for requests and handling them. 3) Expose directory structure like URIs. 4) Transfer data using JSON/XML. The point of REST was to capture all the successful characteristics that made the WWW popular. URIs that look like URLs were familiar from WWW and is what made WWW successful. Hypertext is simply text with hyperlinks. Hyperlinks or simply links is a reference to data a user can click. The motivation for rest was to capture the characteristics of the web that made it successful. These successes include URIs uniform resource indicator aka addressable resources, and the use of HTTP protocol to make requests, receive response, and display response. In terms of what it means when people say RESTful API, first an API is an interface meaning it is a middleman between 2 things. RESTful API is the serverside middleman between client requests and database queries. When a job is asking for someone with RESTful API experience they can either mean 1 of 2 things. Either someone who has experience consuming RESTful APIs, meaning someone who has experience working on the front end client side making GET requests to a server under a specific URI and then getting a response back from the server. When you request data from the server using a RESTful URI you are asking for that data and consuming it when it comes back. Generally you consume it by parsing the incoming JSON data into a JavaScript object notation and then use javascript to manipulate the object accordingly, like display it on a page. A second example of what a job description might mean for RESTful experience is someone who has experience setting up/ creating RESTful apis on the server. This person has experience working on a web server such as Express/NodeJS, to create Routes, that accept and do something with incoming custom URI GET requests for example. This person then has to Route these incoming requests with a handler to a particular database query search for instance, so the server can pass that restful request back to the caller wanting to consume the service. With REST there is 2 sides of the coin, one that consumes the restful service, and one that routes the restful service. The so called "endpoint" for these 2 sides is the URI that links the 2 services together.   '
                         },
 
 
@@ -486,16 +486,17 @@ angular.module('confusionApp')
 
 
 
-var samples=[
-                         {
+var samples=[            {
                           _id:0,
-                          name:'GCS Fund',
-                          image: 'images/main.png',
-                          url: 'https://surakhchin.github.io/gcsfund',
-                          date: '8/16/2017',
-                          description:'Django web app embedded with custom javascript, ajax, html buttons and inputs.'
+                          name:'AirsoftOnline',
+                          image: 'images/airsoftonline.png',
+                          url: 'http://airsoftonline.win',
+                          date: '9/1/2017',
+                          description:'A working progress MEAN stack web app that registers a hit from one client to another. Server-side use of nodejs, expess, socket.io, https, ubuntu ec2. Client-side use of angular, ajax, geolocation and device orientation web apis.',
+                          url2: 'http://airsoftonline.win/target.html',
+                          name2: 'Target'
                         },
-                        {
+                         {
                           _id:1,
                           name:'Compass App',
                           image: 'images/compass.PNG',
@@ -505,12 +506,11 @@ var samples=[
                         },
                         {
                           _id:2,
-                          name:'Menu',
-                          image: 'images/menu.PNG',
-                          url: 'https://surakhchin.github.io/conFusion/#/menu#menu',
-                          date: '2/30/2017',
-                          description:'Menu app is the featured page of conFusion site. It is an Angular page that uses bootstrap tabs to display menu dishes. Clicking on each dish redirects to a dish detail template were you can read and submit dish comments'
-
+                          name:'GCS Fund',
+                          image: 'images/main.png',
+                          url: 'https://surakhchin.github.io/gcsfund',
+                          date: '8/16/2017',
+                          description:'Django web app embedded with custom javascript, ajax, html buttons and inputs.'
                         },
                         {
                           _id:3,
@@ -519,31 +519,41 @@ var samples=[
                           url: 'https://surakhchin.github.io/budgets2',
                           date: '5/30/2017',
                           description:'Simple budgets app build for an open source project. This app pulls custom data from a RESTful API server. Supports GET, UPDATE, DELETE, ADD operations on the Campaign Budgets Object.'
+
                         },
                         {
                           _id:4,
-                          name:'Forms',
-                          image: 'images/form.PNG',
-                          url: 'https://surakhchin.github.io/form',
-                          date: '6/1/2016',
-                          description:'Sample forms made with HTML5, jQuery ajax, and custom JavaScript',
-                          url2: 'https://surakhchin.github.io/form2'
-                        },
-                        {
-                          _id:5,
-                          name:'Chicago',
-                          image: 'images/chicago.PNG',
-                          url: 'https://surakhchin.github.io/Chicago',
-                          date: '5/30/2016',
-                          description:'Single html page responsive static website built with Bootstrap, custom jQuery, CSS3, and HTML5 elements.'
-                        },
-                        {
-                          _id:6,
                           name:'conFusion',
                           image: 'images/confusion.PNG',
                           url: 'https://surakhchin.github.io/conFusion',
                           date: '2/30/2017',
                           description:'Single Page Application build with AngularJS, Bootstrap, custom JavaScript and jQuery.'
+                        },
+                        {
+                          _id:5,
+                          name:'Menu',
+                          image: 'images/menu.PNG',
+                          url: 'https://surakhchin.github.io/conFusion/#/menu#menu',
+                          date: '2/30/2017',
+                          description:'Menu app is the featured page of conFusion site. It is an Angular page that uses bootstrap tabs to display menu dishes. Clicking on each dish redirects to a dish detail template were you can read and submit dish comments'
+                        },
+                        {
+                          _id:6,
+                          name:'Forms',
+                          image: 'images/form.PNG',
+                          url: 'https://surakhchin.github.io/form',
+                          date: '6/1/2016',
+                          description:'Sample forms made with HTML5, jQuery ajax, and custom JavaScript',
+                          url2: 'https://surakhchin.github.io/form2',
+                          name2: 'Forms2'
+                        },
+                        {
+                          _id:7,
+                          name:'Chicago',
+                          image: 'images/chicago.PNG',
+                          url: 'https://surakhchin.github.io/Chicago',
+                          date: '5/30/2016',
+                          description:'Single html page responsive static website built with Bootstrap, custom jQuery, CSS3, and HTML5 elements.'
                         }
                         ];
 
