@@ -489,7 +489,7 @@ angular.module('confusionApp')
 var samples=[            {
                           _id:0,
                           name:'AirsoftOnline',
-                          image: 'images/airsoftonline.png',
+                          image: 'images/airsoftonline.PNG',
                           url: 'http://airsoftonline.win',
                           date: '9/1/2017',
                           description:'A working progress MEAN stack web app that registers a hit from one client to another. Server-side use of nodejs, expess, socket.io, https, ubuntu ec2. Client-side use of angular, ajax, geolocation and device orientation web apis.',
