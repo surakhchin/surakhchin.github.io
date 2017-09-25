@@ -404,6 +404,15 @@ angular.module('confusionApp')
                           link:'http://jsbin.com/kazutak/edit?html,js',
                           info:'info',
                           description:'$http is a core angular service to communicate with servers using the Http protocol. It is asynchronous in nature that uses a promise in form of a method .then(). It runs functions asynchronously and uses the return value in form of a success or error when processed. ***The $http service returns a promise, either success or error. With the $http service, within your app you consume data exported by the server. In the example below we construct a full $http service and in the second example we divide the service side that deals with server under services.js file and service side that deals with our angular app in controller.js file. This is an example of model view controller architecture, as we are separating model/services concerns with controller/app concerns. Later on this will be useful because with the structure we can pass secure data in a logical structural way through the controllers, services, server, and ultimately the database. This chain of events is often facilitated by restful api services offered by full fledged restful api server setups. An easy explanation to restful apis and apis in general is that api is an interface, it is a middle man between 2 parties. Restful api is the serverside middleman with configurations you create to handle front end rest like requests in form of URIs in url bar or URIs in ajax calls, combined with Rest verbs Post put get delete we create a middleman exchange that can process custom uri that represent data to be stored in databases.'
+                        }
+                        {
+                          _id:44,
+                          name:'REST',
+                          image: 'images/44.PNG',
+                          category: 'REST',
+                          link:'',
+                          info:'info',
+                          description:'REST: Representational State Transfer,is a style of software architecture for distributed hypermedia systems such as the World Wide Web. It was designed by Roy Fielding and is a collection of network architecture principles which outline how resources are defined and addressed. There are 4 core principles. 1) Use HTTP methods explicitly(clearly). 2) Be statless, burden of keeping track of state is role of the client. 3) Expose directory structure like URIs. 4) Transfer data using JSON/XML. The point of REST was to capture all the successful characteristics that made the WWW popular. URIs that look like URLs were familiar from WWW and is what made WWW successful. Hypertext is simpy text with hyperlinks. Hyperlinks or simply links is a reference to data a user can click. The motivation for rest was to capture the characteristics of the web that made it successful. These successes include URIs uniform resource indicator aka addressable resources, and the use of HTTP protocol to make reqests, receive response, and display response.  '
                         },
 
 
