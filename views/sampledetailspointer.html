@@ -13,10 +13,10 @@
                             <ul class="media-list">
                        <!--here we have to access the menuCtrl.dishes to get access to the dishes object-->
                        <!--We changed ng-href to ui-sref to change the nested state app.dishdetails via UI-Router-->
-                        <li class="media" ng-repeat="sample in samples | filter:filtText">
+                        <li class="media" ng-repeat="sample in samples">
 
 
-                            <a ui-sref="app.skillsid({id: sample._id})">{{sample.name}}</a>
+                            <a class="btn btn-lg btn-link" ui-sref="app.skillsid({id: sample._id})">{{sample.name}}</a>
 
                         </li>
                     </ul>
@@ -38,8 +38,8 @@
                              ng-src={{sample.image}} alt="Uthappizza"></a>
                         </div>
                         <div class="media-right">
-                            <h2 class="media-heading"><a ng-href={{sample.url}}>{{sample.name}}
-                            </a> <a ng-show="showForm2" ng-href={{sample.url2}}>Forms2</a></h2>
+                            <h2 class="media-heading"><a class="btn btn-lg btn-link" ng-href={{sample.url}}>{{sample.name}}
+                            </a> <a class="btn btn-lg btn-link" ng-show="showForm2" ng-href={{sample.url2}}>{{sample.name2}}</a></h2>
                             <p>{{sample.description}}</p>
                             <span style="float: right">-{{sample.date}}</span>
                             <!--<p>Comment: {{dish.comment}}</p>-->

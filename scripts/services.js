@@ -494,7 +494,7 @@ var samples=[            {
                           date: '9/1/2017',
                           description:'A working progress MEAN stack web app that registers a hit from one client to another. Server-side use of nodejs, expess, socket.io, https, ubuntu ec2. Client-side use of angular, ajax, geolocation and device orientation web apis.',
                           url2: 'http://airsoftonline.win/target.html',
-                          name2: 'Target'
+                          name2: 'TargetOnline'
                         },
                          {
                           _id:1,

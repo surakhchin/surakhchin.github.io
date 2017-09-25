@@ -18,22 +18,22 @@
                 <ul class="nav nav-tabs">
                    <!--ng-click will fire up the menuCtrl select function with given parameter -->
                     <li ng-class="{active:isSelected(1)}">
-                    <a ng-click="select(1)"
+                    <a class="btn btn-lg btn-link" ng-click="select(1)"
                     >All</a></li>
                     <li ng-class="{active:isSelected(2)}">
-                    <a ng-click="select(2)"
+                    <a class="btn btn-lg btn-link" ng-click="select(2)"
                     >HTML</a></li>
                     <li ng-class="{active:isSelected(3)}">
-                    <a ng-click="select(3)"
+                    <a class="btn btn-lg btn-link" ng-click="select(3)"
                     >CSS</a></li>
                     <li ng-class="{active:isSelected(4)}">
-                    <a ng-click="select(4)"
+                    <a class="btn btn-lg btn-link" ng-click="select(4)"
                     >JavaScript</a></li>
                    <li ng-class="{active:isSelected(5)}">
-                    <a ng-click="select(5)"
+                    <a class="btn btn-lg btn-link" ng-click="select(5)"
                     >Angular</a></li>
                     <li ng-class="{active:isSelected(6)}">
-                    <a ng-click="select(6)"
+                    <a class="btn btn-lg btn-link" ng-click="select(6)"
                     >Node</a></li>
                </ul>
 
@@ -51,7 +51,7 @@
                             <div class="media-body">
 
                                     <h2 class="media-heading">{{dem.name}}
-                                     <small><a ui-sref="app.demodetails({id: dem._id})"><span class="glyphicon glyphicon-menu-hamburger"></span></a></small>
+                                     <small><a class="btn btn-lg btn-link" ui-sref="app.demodetails({id: dem._id})"><span class="glyphicon glyphicon-menu-hamburger"></span></a></small>
                                      <a ng-href={{dem.link}} target="_blank"><span class="badge">{{dem.info}}</span></a></h2>
                                     <p ng-show="showDetails">{{dem.description}}</p>
                             </div>
