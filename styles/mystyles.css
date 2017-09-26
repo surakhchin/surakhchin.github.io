@@ -898,13 +898,13 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: black;
+  background: #1e1c14;
   color: floralwhite;
 
 }
 
 .navbar-inverse {
-  background: black;
+  background: #1e1c14;
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .active > a {
@@ -932,14 +932,14 @@
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-  background-color: black;
+  background-color: #1e1c14;
   color: #eeeeee;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
   color: #000000;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu {
-  background-color: black;
+  background-color: #1e1c14;
   color: #eeeeee;
 }
 address {
