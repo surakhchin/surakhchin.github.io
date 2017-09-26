@@ -416,7 +416,7 @@ angular.module('confusionApp')
                         },
                 {
                           _id:45,
-                          name:'$resource',
+                          name:'$resource service',
                           image: 'images/45.PNG',
                           category: 'Angular',
                           link:'http://jsbin.com/kazutak/edit?js',
