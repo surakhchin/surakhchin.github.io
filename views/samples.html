@@ -10,10 +10,10 @@
                             <ul class="media-list">
                        <!--here we have to access the menuCtrl.dishes to get access to the dishes object-->
                        <!--We changed ng-href to ui-sref to change the nested state app.dishdetails via UI-Router-->
-                        <li class="media" ng-repeat="sample in samples">
+                        <li style="padding: 0px; margin: 0px" class="media" ng-repeat="sample in samples">
 
 
-                            <a class="btn btn-lg btn-link" ui-sref="app.sampledetails({id: sample._id})">{{sample.name}}</a>
+                            <a style="color: blue" ui-sref="app.sampledetails({id: sample._id})">{{sample.name}}</a>
 
                         </li>
                     </ul>
