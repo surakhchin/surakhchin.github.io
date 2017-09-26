@@ -33,8 +33,12 @@
 
 <header class="jumbotron" ng-controller="JumboController">
     <!-- Main component for a primary marketing message or call to action -->
+    <!--<div style="z-index: 0; width: 100%; height:100px; background-color: yellow; border: 1px solid white" ></div>-->
     <div class="container">
-        <div class="row row-header">
+        <!--<button style="margin-top: -60px" ng-click="toggleName()" class="btn btn-xs btn-primary pull-right" type="button">-->
+                     <!--{{showName ? 'Hide Details':'Show Details'}}-->
+        <!--</button>-->
+        <div style="z-index: 1"  ng-show="showName" class="row row-header">
             <div class="col-xs-12 col-sm-8">
                 <h1>Serge Urakhchin</h1>
                 <p style="padding:5px;"></p>

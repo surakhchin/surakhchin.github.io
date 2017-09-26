@@ -164,6 +164,11 @@ angular.module('confusionApp')
 //-------------------------------------------------------------------------------------
  	    .controller('JumboController', ['$scope', '$anchorScroll', '$location', function($scope, $anchorScroll, $location) {
 
+			$scope.showName = true;
+
+			$scope.toggleName = function() {
+                $scope.showName = !$scope.showName;
+            };
 
  	    	$scope.pointer = 'app';
 
