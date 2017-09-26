@@ -46,34 +46,34 @@
 
     <div class="container">
         <div class="col-xs-12" style="margin: -25px">
-                <button style="background-color: transparent; border: transparent" ng-click="toggleMute()" class="btn btn-xs btn-primary pull-right" type="button">
+                <button style="background-color: transparent; border: transparent; margin-right: -75px; margin-top: -43px" ng-click="toggleMute()" class="btn btn-xs btn-primary pull-right" type="button">
                      {{showMute ? 'Sound Off':'Sound On'}}
         </button>
         </div>
         <div  class="row row-header">
             <div class="col-xs-12 col-sm-8">
-                <h1>Serge Urakhchin</h1>
+                <h1 style="opacity: .75">Serge Urakhchin</h1>
                 <p style="padding:5px;"></p>
-                <h2>Full Stack Web Developer</h2>
+                <h2 style="opacity: .75">Full Stack Web Developer</h2>
                 <div>
                 <div style="padding: 10px"></div>
-                <div><button style="background-color: transparent" ui-sref="app.demoid">Search</button> for Key Terms.</div>
+                <div style="opacity: .75"><button style="background-color: transparent" ui-sref="app.demoid">Search</button> for Key Terms.</div>
                 <div style="text-align: center; margin: auto; padding-top: 5px"><a style="color: white" ui-sref="app.skills"><span class="glyphicon glyphicon-menu-down"></span></a></div>
             </div>
             </div>
             <div class="col-xs-12 col-sm-2">
                 <p style="padding:20px;"></p>
-                <a style="" target="_blank" href="https://drive.google.com/file/d/0B0C-mJopKXmWZkN5blZJQTJyLWs/view"><img style="display: block; margin-left: auto; margin-right: auto;"
+                <a  style="" target="_blank" href="https://drive.google.com/file/d/0B0C-mJopKXmWZkN5blZJQTJyLWs/view"><img style="display: block; margin-left: auto; margin-right: auto;"
                                class="img-responsive"  src="images/icon_resume.png" alt="icon-resume"></a>
             </div>
             <div class="col-xs-12 col-sm-2">
             <p style="padding:20px;"></p>
-            <a ui-sref="app"><img class="img-responsive center-block" src="images/face.png" alt="face" ></a>
+            <a ui-sref="app"><img  class="img-responsive center-block" src="images/face.png" alt="face" ></a>
             </div>
 
         </div>
     </div>
-    <div  class="col-xs-12">
+    <div style="opacity: .75" class="col-xs-12">
     <div style="display: inline-block; float: right; margin-top: 30px; margin-right:0;">{{date | date:"MMMM dd'th,' yyyy h':'m a "}}</div>
 </div>
 </header>

@@ -41,9 +41,14 @@
     </video>
 </div>
     <div class="container">
+        <div class="col-xs-12" style="margin: -25px">
+                <button style="background-color: transparent; border: transparent" ng-click="toggleMute()" class="btn btn-xs btn-primary pull-right" type="button">
+                     {{showMute ? 'Sound Off':'Sound On'}}
+        </button>
+        </div>
         <div class="row row-header">
             <div class="col-xs-12 col-sm-8">
-                <h1>Serge Urakhchin</h1>
+                <h1 >Serge Urakhchin</h1>
                 <p style="padding:20px;"></p>
                 <h2>Full Stack Web Developer</h2>
                 <div>
@@ -64,6 +69,8 @@
 
         </div>
     </div>
-    <div style="display: inline-block; float: right; margin-top: 30px;">{{date | date:"MMMM dd'th,' yyyy h':'m a "}}</div>
+    <div  class="col-xs-12">
+        <div style="display: inline-block; float: right; margin-top: 30px; margin-right:0;">{{date | date:"MMMM dd'th,' yyyy h':'m a "}}</div>
+    </div>
 
 </header>
