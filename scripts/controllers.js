@@ -162,7 +162,21 @@ angular.module('confusionApp')
 			//ENDD
 
 //-------------------------------------------------------------------------------------
- 	    .controller('JumboController', ['$scope', '$anchorScroll', '$location', function($scope, $anchorScroll, $location) {
+ 	    .controller('JumboController', ['$scope', '$anchorScroll', '$location','$window', function($scope, $anchorScroll, $location, $window) {
+
+ 	    	$scope.number = $window.innerWidth;
+			$scope.class3 = 'fullscreen-bg__video';
+ 	    	$scope.changeVideo = function () {
+
+
+                if ($scope.number < 500) {
+                    $scope.class3 = "fullscreen-bg__video2";
+                }
+                else {
+                    $scope.class3 = "fullscreen-bg__video";
+                }
+            };
+            $scope.changeVideo();
 
 			$scope.showName = true;
 
