@@ -408,7 +408,7 @@ angular.module('confusionApp')
                         {
                           _id:44,
                           name:'REST',
-                          image: 'images/44.PNG',
+                          image: 'images/44.png',
                           category: 'REST Javascript Node Angular',
                           link:'',
                           info:'info',
