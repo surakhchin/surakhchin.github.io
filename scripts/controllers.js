@@ -3,6 +3,9 @@
 angular.module('confusionApp')
 
 
+	.constant('jQuery', window.jQuery)
+
+
 
 
 
@@ -162,7 +165,9 @@ angular.module('confusionApp')
 			//ENDD
 
 //-------------------------------------------------------------------------------------
- 	    .controller('JumboController', ['$scope', '$anchorScroll', '$location','$window', function($scope, $anchorScroll, $location, $window) {
+ 	    .controller('JumboController', ['$scope', '$anchorScroll', '$location','$window', 'jQuery', function($scope, $anchorScroll, $location, $window, jQuery) {
+
+
 
  	    	$scope.number = $window.innerWidth;
 			$scope.class3 = 'fullscreen-bg__video';
@@ -178,10 +183,12 @@ angular.module('confusionApp')
             };
             $scope.changeVideo();
 
-			$scope.showName = true;
 
-			$scope.toggleName = function() {
-                $scope.showName = !$scope.showName;
+			$scope.shoMute = true;
+			$scope.toggleMute = function() {
+                 jQuery("video").prop('muted', !$("video").prop('muted'));
+                 alert('hey');
+                 $scope.showMute = !$scope.showMute;
             };
 
  	    	$scope.pointer = 'app';

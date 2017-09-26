@@ -35,6 +35,7 @@
     <!-- Main component for a primary marketing message or call to action -->
     <!--<div style="z-index: 0; width: 100%; height:100px; background-color: yellow; border: 1px solid white" ></div>-->
     <!--<video class="video"> <source src="vid.mp4" type="video/mp4"/> </video>-->
+
     <div class="fullscreen-bg">
     <video loop muted autoplay poster="" ng-class="class3">
 
@@ -42,11 +43,14 @@
 
     </video>
 </div>
+
     <div class="container">
-        <!--<button style="margin-top: -60px" ng-click="toggleName()" class="btn btn-xs btn-primary pull-right" type="button">-->
-                     <!--{{showName ? 'Hide Details':'Show Details'}}-->
-        <!--</button>-->
-        <div  ng-show="showName" class="row row-header">
+        <div class="col-xs-12">
+                <button style="background-color: transparent; border: transparent" ng-click="toggleMute()" class="btn btn-xs btn-primary pull-right" type="button">
+                     {{showMute ? 'Sound Off':'Sound On'}}
+        </button>
+        </div>
+        <div  class="row row-header">
             <div class="col-xs-12 col-sm-8">
                 <h1>Serge Urakhchin</h1>
                 <p style="padding:5px;"></p>
@@ -69,7 +73,7 @@
 
         </div>
     </div>
-
-    <div style="display: inline-block; float: right; margin-top: 30px; z-index: 1">{{date | date:"MMMM dd'th,' yyyy h':'m a "}}</div>
-
+    <div class="col-xs-12">
+    <div style="display: inline-block; float: right; margin-top: 30px; margin-right:0;">{{date | date:"MMMM dd'th,' yyyy h':'m a "}}</div>
+</div>
 </header>
