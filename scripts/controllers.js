@@ -187,7 +187,7 @@ angular.module('confusionApp')
 			$scope.shoMute = true;
 			$scope.toggleMute = function() {
                  jQuery("video").prop('muted', !$("video").prop('muted'));
-                 alert('hey');
+                 // alert('hey');
                  $scope.showMute = !$scope.showMute;
             };
 
