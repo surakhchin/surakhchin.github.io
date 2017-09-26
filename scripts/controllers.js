@@ -119,19 +119,29 @@ angular.module('confusionApp')
            $scope.sample = demoFactory.getSample(parseInt($stateParams.id,10));
 
 
-           	$scope.class = "media-top";
+           	$scope.class = "media-left media-middle";
+           	$scope.class2 = "media-object img-thumbnail img-responsive";
             $scope.number = $window.innerWidth;
 
             $scope.changeClass = function () {
 
-                if ($scope.number > 500) {
-                    $scope.class = "media-left media-middle";
-                    return $scope.class;
+                if ($scope.number < 500) {
+                    $scope.class = "media-top";
+                    $scope.class2 = "media-object img-thumbnail img-responsive image";
                 }
                 else {
-                    $scope.class = "media-top";
-                    return $scope.class;
+                    $scope.class = "media-left media-middle";
+                    $scope.class2 = "media-object img-thumbnail img-responsive";
                 }
+                // if ($scope.number < 500) {
+                //     $scope.class2 = "media-object img-thumbnail img-responsive image";
+                //     return $scope.class2;
+                // }
+                // else {
+                //     $scope.class2 = "media-object img-thumbnail img-responsive";
+                //     return $scope.class2;
+                // }
+
             };
             $scope.changeClass();
 

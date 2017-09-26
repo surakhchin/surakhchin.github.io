@@ -1,3 +1,10 @@
+.image{
+    left: 133px;
+    position: absolute;
+    top: -162px;
+}
+
+
 #gears{
 
     background-image: url("../images/gears.jpg");

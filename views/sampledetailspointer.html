@@ -2,7 +2,7 @@
     <div class="container" ng-controller="SampleDetailController">
 
         <div id="samplebackground" class="row row-content">
-            <button class="btn btn-xs btn-primary pull-right"
+            <button style="margin-top: 20px" class="btn btn-xs btn-primary pull-right"
                     type="button" ui-sref="app.sampleprojects">
                     Back to Sample Projects
             </button>
@@ -13,10 +13,10 @@
                             <ul class="media-list">
                        <!--here we have to access the menuCtrl.dishes to get access to the dishes object-->
                        <!--We changed ng-href to ui-sref to change the nested state app.dishdetails via UI-Router-->
-                        <li class="media" ng-repeat="sample in samples">
+                        <li style="padding: 0px; margin: 0px" class="media" ng-repeat="sample in samples">
 
 
-                            <a class="btn btn-lg btn-link" ui-sref="app.skillsid({id: sample._id})">{{sample.name}}</a>
+                            <a style="color: blue" ui-sref="app.skillsid({id: sample._id})">{{sample.name}}</a>
 
                         </li>
                     </ul>
@@ -38,8 +38,8 @@
                              ng-src={{sample.image}} alt="Uthappizza"></a>
                         </div>
                         <div class="media-right">
-                            <h2 class="media-heading"><a class="btn btn-lg btn-link" ng-href={{sample.url}}>{{sample.name}}
-                            </a> <a class="btn btn-lg btn-link" ng-show="showForm2" ng-href={{sample.url2}}>{{sample.name2}}</a></h2>
+                            <h4 class="media-heading"><a style="color: blue" ng-href={{sample.url}}>{{sample.name}}
+                            </a> <a style="color: blue" ng-show="showForm2" ng-href={{sample.url2}}>{{sample.name2}}</a></h4>
                             <p>{{sample.description}}</p>
                             <span style="float: right">-{{sample.date}}</span>
                             <!--<p>Comment: {{dish.comment}}</p>-->
