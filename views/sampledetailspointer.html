@@ -33,13 +33,13 @@
                        <!--here we have to access the menuCtrl.dishes to get access to the dishes object-->
                     <li class="media">
                         <div ng-class="class">
-                            <a ng-href={{sample.url}}>
+                            <a target="_blank" ng-href={{sample.url}}>
                             <img style="width: 150px" ng-class="class2"
                              ng-src={{sample.image}} alt="Uthappizza"></a>
                         </div>
                         <div class="media-right">
-                            <h4 class="media-heading"><a style="color: blue" ng-href={{sample.url}}>{{sample.name}}
-                            </a> <a style="color: blue" ng-show="showForm2" ng-href={{sample.url2}}>{{sample.name2}}</a></h4>
+                            <h4 class="media-heading"><a target="_blank" style="color: blue" ng-href={{sample.url}}>{{sample.name}}
+                            </a> <a target="_blank" style="color: blue" ng-show="showForm2" ng-href={{sample.url2}}>{{sample.name2}}</a></h4>
                             <p>{{sample.description}}</p>
                             <span style="float: right">-{{sample.date}}</span>
                             <!--<p>Comment: {{dish.comment}}</p>-->
