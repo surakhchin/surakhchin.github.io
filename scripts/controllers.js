@@ -355,13 +355,16 @@ angular.module('confusionApp')
 
         }])
 
-        .controller('AboutController', ['$scope', '$window', 'corporateFactory', 'demoFactory', function($scope, $window, corporateFactory, demoFactory) {
+        .controller('AboutController', ['$scope', '$window', 'corporateFactory', 'demoFactory', 'jQuery', function($scope, $window, corporateFactory, demoFactory, jQuery) {
 
 
 			$scope.skills = demoFactory.getSkills();
             $scope.goals = demoFactory.getGoals();
             $scope.leadership= corporateFactory.getLeaders();
 
+            if($scope.goals[5]){
+
+			}
 
             $(function(){
 			  // Bind the resize event. When the window size changes, update its corresponding
