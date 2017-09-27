@@ -426,7 +426,7 @@ angular.module('confusionApp')
                 {
                           _id:46,
                           name:'angular directives',
-                          image: 'images/45.PNG',
+                          image: '',
                           category: 'Angular',
                           link:'',
                           info:'info',

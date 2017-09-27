@@ -38,8 +38,8 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="432" column="1240" lean-forward="false" selection-start-line="432" selection-start-column="1240" selection-end-line="432" selection-end-column="1240" />
+            <state relative-caret-position="236">
+              <caret line="428" column="34" lean-forward="false" selection-start-line="428" selection-start-column="34" selection-end-line="428" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="221">
               <caret line="13" column="92" lean-forward="false" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="92" />
               <folding />
             </state>
@@ -890,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="221">
           <caret line="13" column="92" lean-forward="false" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="92" />
           <folding />
         </state>
@@ -898,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="432" column="1240" lean-forward="false" selection-start-line="432" selection-start-column="1240" selection-end-line="432" selection-end-column="1240" />
+        <state relative-caret-position="236">
+          <caret line="428" column="34" lean-forward="false" selection-start-line="428" selection-start-column="34" selection-end-line="428" selection-end-column="34" />
           <folding />
         </state>
       </provider>
