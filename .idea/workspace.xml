@@ -25,8 +25,8 @@
       <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/aboutus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="311" column="31" lean-forward="false" selection-start-line="311" selection-start-column="31" selection-end-line="311" selection-end-column="31" />
+            <state relative-caret-position="234">
+              <caret line="296" column="30" lean-forward="false" selection-start-line="296" selection-start-column="30" selection-end-line="296" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -895,8 +895,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="311" column="31" lean-forward="false" selection-start-line="311" selection-start-column="31" selection-end-line="311" selection-end-column="31" />
+        <state relative-caret-position="234">
+          <caret line="296" column="30" lean-forward="false" selection-start-line="296" selection-start-column="30" selection-end-line="296" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
