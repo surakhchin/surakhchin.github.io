@@ -439,7 +439,7 @@ angular.module('confusionApp')
                           category: 'Angular',
                           link:'',
                           info:'info',
-                          description:'Written with HTML, contains angular specific elements and attributes.Angular specific elements and attributes include: directives, markup expressions, filters, and form controls. ng-include for example can be an element and attribute, as an attribute it is actually an angular directive. Directives are angular entities that act as html attributes. ***nginclude directive is used to fetch, compile, and include an external HTML fragment. When used as a directive it looks like: ng-include="\'myfile.html\'". This will include the html document inside that document. When used as an element, it looks something like >ng-include src="myfile.html"<  '
+                          description:'Written with HTML, contains angular specific elements and attributes. Angular specific elements and attributes include: directives, markup expressions, filters, and form controls. ng-include for example can be an element and attribute, as an attribute it is actually an angular directive. Directives are angular entities that act as html attributes. ***nginclude directive is used to fetch, compile, and include an external HTML fragment. When used as a directive it looks like: ng-include="\'myfile.html\'". This will include the html document inside that document. When used as an element, it looks something like >ng-include src="myfile.html"<. One thing that is important to do with our angular templates is to activate them via a controller. This will allow controller code to be used through angular entities such as directives.  '
                         },
 
 

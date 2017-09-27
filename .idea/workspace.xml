@@ -25,8 +25,8 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="441" column="653" lean-forward="false" selection-start-line="441" selection-start-column="653" selection-end-line="441" selection-end-column="653" />
+            <state relative-caret-position="593">
+              <caret line="442" column="26" lean-forward="true" selection-start-line="442" selection-start-column="26" selection-end-line="442" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -476,14 +476,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/demodetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -886,10 +878,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/animatepointer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="441" column="653" lean-forward="false" selection-start-line="441" selection-start-column="653" selection-end-line="441" selection-end-column="653" />
+        <state relative-caret-position="593">
+          <caret line="442" column="26" lean-forward="true" selection-start-line="442" selection-start-column="26" selection-end-line="442" selection-end-column="26" />
           <folding />
         </state>
       </provider>
