@@ -453,7 +453,7 @@ angular.module('confusionApp')
                 {
                           _id:49,
                           name:'angular $scope',
-                          image: '',
+                          image: 'images/49.PNG',
                           category: 'Angular',
                           link:'http://jsbin.com/dimomuv/edit?html,js,output',
                           info:'info',
