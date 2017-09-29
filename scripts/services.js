@@ -448,7 +448,16 @@ angular.module('confusionApp')
                           category: 'Angular',
                           link:'',
                           info:'info',
-                          description:'Dependency Injection (DI) is a software design pattern. ***It is useful for implementing application where one object is dependent on another object. We sometimes use inline array notation to include dependencies on our angular modules. What that means is include our dependencies in brackets, and then pass them in into an anon func as a last parameter. Kinda tricky but here is an example of adding $scope DI and menuFactory service DI into the MainController: module.controller("MainController",[\'$scope\', \'menuFactory\', function($scope,menuFactory){//controller code here}]); The 2 other ways a component can get a hold of its dependencies is create a dependency using NEW operator or look up with global variable. '
+                          description:'Dependency Injection (DI) is a software design pattern. ***It is useful for implementing application where one object is dependent on another object. We sometimes use inline array notation to include dependencies on our angular modules. What that means is include our dependencies in brackets, and then pass them in into an anon func as a last parameter. Kinda tricky but here is an example of adding $scope DI and menuFactory service DI into the MainController: module.controller("MainController",[\'$scope\', \'menuFactory\', function($scope,menuFactory){//controller code here}]); The 2 other ways a component can get a hold of its dependencies is create a dependency using NEW operator or look up with a global variable. '
+                        },
+                {
+                          _id:49,
+                          name:'angular $scope',
+                          image: '',
+                          category: 'Angular',
+                          link:'http://jsbin.com/dimomuv/edit?html,js,output',
+                          info:'info',
+                          description:'Scope is an object that refers to app.model. At core of angular 2-way data binding, scope is the glue between view and controller. The controller can set $rootScope: main scope of app scope tree has relationship with the DOM tree, you have support for nested scopes. The child $scope has acces to parent scope. In controllers $scope.variable replaces this.variable when we have to define them in angular controllers. In the example we have 2 different ways of creating an angular app, creating an angular controller, assigning a pieace of html code the controller, and displaying the data binding in example 1 as 2 way data binding via ng-model, and 1 way data binding via angular expressions. '
                         },
 
 
