@@ -25,8 +25,8 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="455" column="47" lean-forward="false" selection-start-line="455" selection-start-column="47" selection-end-line="455" selection-end-column="47" />
+            <state relative-caret-position="797">
+              <caret line="459" column="1932" lean-forward="false" selection-start-line="459" selection-start-column="1932" selection-end-line="459" selection-end-column="1932" />
               <folding />
             </state>
           </provider>
@@ -101,12 +101,12 @@
       <find>n</find>
       <find>ng-model</find>
       <find>Home</find>
-      <find>aboutcont</find>
       <find>ng-</find>
       <find>3604</find>
       <find>timeline</find>
       <find>transiti</find>
       <find>this is</find>
+      <find>aboutcont</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -845,14 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="361" column="50" lean-forward="false" selection-start-line="361" selection-start-column="50" selection-end-line="361" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -896,10 +888,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="361" column="50" lean-forward="false" selection-start-line="361" selection-start-column="50" selection-end-line="361" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="455" column="47" lean-forward="false" selection-start-line="455" selection-start-column="47" selection-end-line="455" selection-end-column="47" />
+        <state relative-caret-position="797">
+          <caret line="459" column="1932" lean-forward="false" selection-start-line="459" selection-start-column="1932" selection-end-line="459" selection-end-column="1932" />
           <folding />
         </state>
       </provider>
