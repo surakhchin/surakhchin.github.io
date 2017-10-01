@@ -459,6 +459,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'Scope is an object that refers to app.module. ***At core of angular 2-way data binding, scope is the glue between view and controller. There is also the $rootScope. "The $rootSCope is a parent object of all “$scope” angular objects created in a web page. $scope is created with ng-controller while $rootscope is created with ng-app." Angular $scope has a relation with the DOM tree so you have support for nested scopes. In the examples below we create an angular app by assigning it to variable app and we also assign this app to our body of the page. It is important when we create an angular app to pass it to a variable. Otherwise we won\'t initialize our angular app correctly. Inside our app we create 2 controllers MyCtrl and GunController and on the html we assign divs to those controllers. In the first example there is a simple illustration of how to create a controller. It is an example of angulars 1 way data binding from the javascript controller to the html angular expression.  In the second example we are using an advanced technique of javascript inline array notation where we create a controller that we can chain onto our app module. Inline array notation is also useful when you need to be extra explicit like for gulp tasks. In the second example we are also illustrating 2 way data binding by creating variable model and assigning it to an ng-model directive inside an input element and right after displaying it via an angular expression. So the ng-model directive model binding is 1/2 data bindings and angular expression model binding is 2/2. Note: this example has a working angular CDN for JSBIN version 1.01 compatible with 1.63 which is the version I\'m used to.   '
                         },
+                {
+                          _id:50,
+                          name:'mvc framework',
+                          image: 'images/50.PNG',
+                          category: 'Angular',
+                          link:'',
+                          info:'info',
+                          description:'Model view controller framework is a software engineering architecture pattern. It is a separation of concerns between domain logic and the user interface. The Model wroks with the database and makes calls to bring in data that it also inserts into the view and updates. The controller handles routing and when to call the model function. The view renders the model into a form suitable for interaction via templates. The view is the part of the app that the user sees.    '
+                        },
 
 
 
