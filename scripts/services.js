@@ -468,6 +468,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'Model view controller framework is a software engineering architecture pattern. It is a separation of concerns between domain logic and the user interface. The Model wroks with the database and makes calls to bring in data that it also inserts into the view and updates. The controller handles routing and when to call the model function. The view renders the model into a form suitable for interaction via templates. The view is the part of the app that the user sees.    '
                         },
+                {
+                          _id:51,
+                          name:'angular filters',
+                          image: '',
+                          category: 'Angular',
+                          link:'',
+                          info:'info',
+                          description:'Angular filters allow us to format the value of an expression or javascript object arrays. They do not modify the underlying data. They can be used in view templates, controllers, or services. We can also create our own fileters. Example use in html would be: ng-repeat="dish in dishesCtrl.dishes | filter: dishesCtrl.filtText and ng-model="filtText" in an input element and in javascript controller code we would do something like var dishes=[{},{},{}]; and var filtText=""; This will filter out the display of dishes in the ng for loop by typing the filter in the model input filter.     '
+                        },
 
 
 
