@@ -475,7 +475,7 @@ angular.module('confusionApp')
                           category: 'Angular',
                           link:'',
                           info:'info',
-                          description:'Angular filters allow us to format the value of an expression or javascript object arrays. They do not modify the underlying data. They can be used in view templates, controllers, or services. We can also create our own fileters. Example use in html would be: ng-repeat="dish in dishesCtrl.dishes | filter: dishesCtrl.filtText and ng-model="filtText" in an input element and in javascript controller code we would do something like var dishes=[{},{},{}]; and var filtText=""; This will filter out the display of dishes in the ng for loop by typing the filter in the model input filter.     '
+                          description:'Angular filters allow us to format the value of an expression or javascript object arrays. They do not modify the underlying data. They can be used in view templates, controllers, or services. We can also create our own filters. Example use in html would be: ng-repeat="dish in dishesCtrl.dishes | filter: dishesCtrl.filtText and ng-model="filtText" in an input element and in javascript controller code we would do something like var dishes=[{},{},{}]; and var filtText=""; This will filter out the display of dishes in the ng for loop by typing the filter in the model input filter.     '
                         },
 
 

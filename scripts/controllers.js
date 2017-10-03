@@ -184,12 +184,27 @@ angular.module('confusionApp')
             $scope.changeVideo();
 
 
-			$scope.shoMute = true;
+			$scope.showMute = false;
 			$scope.toggleMute = function() {
-                 jQuery("video").prop('muted', !$("video").prop('muted'));
+                 jQuery("video").prop('muted', !jQuery("video").prop('muted'));
                  // alert('hey');
                  $scope.showMute = !$scope.showMute;
             };
+
+			$scope.showPlay = false;
+			$scope.togglePlay = function() {
+                 // jQuery("video").prop('paused', !jQuery("video").prop('paused'));
+                 // alert('hey');
+                 $scope.showPlay = !$scope.showPlay;
+            };
+			jQuery('#button2').click(function () {
+   				if (jQuery("#video").get(0).paused) {
+       			jQuery("#video").get(0).play();
+   				} 
+   				else {
+   					jQuery("#video").get(0).pause();
+				}
+			});
 
  	    	$scope.pointer = 'app';
 
