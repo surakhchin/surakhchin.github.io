@@ -477,6 +477,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'Angular filters allow us to format the value of an expression or javascript object arrays. They do not modify the underlying data. They can be used in view templates, controllers, or services. We can also create our own filters. Example use in html would be: ng-repeat="dish in dishesCtrl.dishes | filter: dishesCtrl.filtText and ng-model="filtText" in an input element and in javascript controller code we would do something like var dishes=[{},{},{}]; and var filtText=""; This will filter out the display of dishes in the ng for loop by typing the filter in the model input filter.     '
                         },
+                {
+                          _id:52,
+                          name:'angular app',
+                          image: 'images/52.PNG',
+                          category: 'Angular',
+                          link:'http://jsbin.com/lagedebozu/edit?html,js,output',
+                          info:'info',
+                          description:'How to create a basic angular app and controller: //create an angular module app and assign it to variable app. Pass this app as an ng-app directive to your html code. //create an angular controller mainController and attach it to your module app by chaining it under your app variable. Also assign the controller to the specific area of your html. //when creating your controller and assigning it its anon function, pass in $scope as the parameter so you can create your variables in the controller under the $scope object. //inside controller create an object under $scope and set its basic properties. //in our html code use angular expressions to display the object\'s property and some other random variables. In the example this.poop2 doesn\'t work to assign poop2 variable to our controller via this. We have to assign all our variables we want to access in our html via $scope. Whats interesting to note in the example we use the this keyword under the angular expression and we get "$SCOPE" identified. So it shows that all variables that get showed under angular expressions are defined to be under the $scope variable.     '
+                        },
 
 
 
