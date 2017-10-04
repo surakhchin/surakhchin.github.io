@@ -486,6 +486,15 @@ angular.module('confusionApp')
                           info:'info',
                           description:'How to create a basic angular app and controller: //create an angular module app and assign it to variable app. Pass this app as an ng-app directive to your html code. //create an angular controller mainController and attach it to your module app by chaining it under your app variable. Also assign the controller to the specific area of your html. //when creating your controller and assigning it its anon function, pass in $scope as the parameter so you can create your variables in the controller under the $scope object. //inside controller create an object under $scope and set its basic properties. //in our html code use angular expressions to display the object\'s property and some other random variables. In the example this.poop2 doesn\'t work to assign poop2 variable to our controller via this. We have to assign all our variables we want to access in our html via $scope. Whats interesting to note in the example we use the this keyword under the angular expression and we get "$SCOPE" identified. So it shows that all variables that get showed under angular expressions are defined to be under the $scope variable.     '
                         },
+                {
+                          _id:53,
+                          name:'single page applications',
+                          image: '',
+                          category: 'Angular',
+                          link:'',
+                          info:'info',
+                          description:'A single page application at its core is a hyperlink that specifies a link to a searchable or indexed piece of web content. example: http://www.conFusion.food/index.html/menu/0 the last part menu/0 becomes interchangeable in a single page application(SPA).SPAs hijack the hashtag approach that is used by hyperlinks. Through the changing portion of the URL, we can load up different views creating the single page application. The role of the server in a single page app is to serve up data using REST API, it also supplies static HTML pages, angular templates, and adds/stores resources. The clients role is to render the view and manage templating and routing. '
+                        },
 
 
 

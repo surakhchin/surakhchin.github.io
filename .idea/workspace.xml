@@ -15,7 +15,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="187">
               <caret line="11" column="134" lean-forward="false" selection-start-line="11" selection-start-column="134" selection-end-line="11" selection-end-column="134" />
               <folding />
             </state>
@@ -37,7 +37,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
+            <state relative-caret-position="302">
               <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding />
             </state>
@@ -47,8 +47,8 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="486" column="1167" lean-forward="false" selection-start-line="486" selection-start-column="1167" selection-end-line="486" selection-end-column="1167" />
+            <state relative-caret-position="644">
+              <caret line="495" column="703" lean-forward="true" selection-start-line="495" selection-start-column="703" selection-end-line="495" selection-end-column="703" />
               <folding />
             </state>
           </provider>
@@ -851,7 +851,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="187">
           <caret line="11" column="134" lean-forward="false" selection-start-line="11" selection-start-column="134" selection-end-line="11" selection-end-column="134" />
           <folding />
         </state>
@@ -859,7 +859,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="302">
           <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding />
         </state>
@@ -867,8 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="486" column="1167" lean-forward="false" selection-start-line="486" selection-start-column="1167" selection-end-line="486" selection-end-column="1167" />
+        <state relative-caret-position="644">
+          <caret line="495" column="703" lean-forward="true" selection-start-line="495" selection-start-column="703" selection-end-line="495" selection-end-column="703" />
           <folding />
         </state>
       </provider>
