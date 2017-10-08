@@ -25,8 +25,8 @@
       <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/aboutus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="379" column="62" lean-forward="false" selection-start-line="379" selection-start-column="62" selection-end-line="379" selection-end-column="62" />
+            <state relative-caret-position="740">
+              <caret line="355" column="0" lean-forward="true" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,9 +45,11 @@
       <file leaf-file-name="creds.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/creds.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="63" column="73" lean-forward="false" selection-start-line="63" selection-start-column="73" selection-end-line="63" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="67">
+              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding>
+                <element signature="e#3659#3666#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,8 +118,8 @@
       <find>REST</find>
       <find>diploma</find>
       <find>cred</find>
-      <find>myModal</find>
       <find>credentialsbackground</find>
+      <find>myModal</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -854,16 +856,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/creds.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="63" column="73" lean-forward="false" selection-start-line="63" selection-start-column="73" selection-end-line="63" selection-end-column="73" />
-          <folding />
+        <state relative-caret-position="67">
+          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding>
+            <element signature="e#3659#3666#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="379" column="62" lean-forward="false" selection-start-line="379" selection-start-column="62" selection-end-line="379" selection-end-column="62" />
+        <state relative-caret-position="740">
+          <caret line="355" column="0" lean-forward="true" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
           <folding />
         </state>
       </provider>
