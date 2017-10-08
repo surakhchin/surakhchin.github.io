@@ -563,7 +563,8 @@ angular.module('confusionApp')
                 title: 'Educational Credentials',
                 diploma: 'images/diploma.png',
                 ddiploma: 'images/ddiploma.png',
-                cdiploma:  'images/cdiploma.png'
+                cdiploma:  'images/cdiploma.png',
+                wrestling: 'images/sergebanner.jpg'
             };
 
             this.getCredentials = function () {

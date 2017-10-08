@@ -879,6 +879,9 @@
     background: url("../images/credentials.png") no-repeat;
 }
 
+#awardsbackground {
+    background: url("../images/awards.png") no-repeat;
+}
 
 .row-header {
   margin: 0px auto;
