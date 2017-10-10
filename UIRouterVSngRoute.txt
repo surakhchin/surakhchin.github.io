@@ -1,0 +1,13 @@
+UI-Router	vs	ngRoute
+
+$stateProvider	vs	$routeProvider 
+urlRouterProvider
+.otherwise	vs	.otherwise
+$stateParams	vs	$routeParams
+ui-sref		vs	ng-href
+ui-view		vs	ng-view
+.state		vs	.when
+
+"State Machine apporach designing SPAs: Instead of 
+routes to track different views, you specify states that 
+move from one state to another. Router as a state machine." 
