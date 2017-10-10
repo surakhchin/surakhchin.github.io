@@ -520,7 +520,7 @@ angular.module('confusionApp')
                           category: 'Angular',
                           link:'http://jsbin.com/wuhunusofa/edit?html,js,output',
                           info:'info',
-                          description:' '
+                          description:'We define angular apps by saying: var app = angular.module(\'myapp\',[]). Notice how we have that empty array with []. This array is reserved for external angular modules that you wish to imortant via dependency injection. Some of the modules you might want to use in your project would be UI-Router, ngRoute, or ngResource.  '
                         },
                 {
                           _id:57,
@@ -529,7 +529,7 @@ angular.module('confusionApp')
                           category: 'Angular',
                           link:'http://jsbin.com/vapumumovu/edit?html,js,output',
                           info:'info',
-                          description:' '
+                          description:'***Angular Controllers aer javascript objects containing attributes/properties and functions. We expose javascript variables to the view through the controller so they can be used from the browser side. We display these variables defined in controllers in our html angular templates through angular directives and expressions. To define an angular controller we use ng-controller directive on an html element. This will activate that portion of the html with the javascript variables defined in the corresponding controller.'
                         },
                 {
                           _id:58,

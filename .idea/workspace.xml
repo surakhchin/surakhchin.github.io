@@ -25,8 +25,8 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="513" column="3443" lean-forward="false" selection-start-line="513" selection-start-column="3443" selection-end-line="513" selection-end-column="3443" />
+            <state relative-caret-position="-101">
+              <caret line="522" column="364" lean-forward="false" selection-start-line="522" selection-start-column="364" selection-end-line="522" selection-end-column="364" />
               <folding />
             </state>
           </provider>
@@ -813,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="513" column="3443" lean-forward="false" selection-start-line="513" selection-start-column="3443" selection-end-line="513" selection-end-column="3443" />
+        <state relative-caret-position="-101">
+          <caret line="522" column="364" lean-forward="false" selection-start-line="522" selection-start-column="364" selection-end-line="522" selection-end-column="364" />
           <folding />
         </state>
       </provider>
