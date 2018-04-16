@@ -12,16 +12,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="headerdemo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/headerdemo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="samples.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/samples.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,17 +68,27 @@
         <entry file="file://$PROJECT_DIR$/views/demodetails.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="34" />
+              <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/aboutus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="258" column="46" lean-forward="false" selection-start-line="258" selection-start-column="46" selection-end-line="258" selection-end-column="46" />
+            <state relative-caret-position="509">
+              <caret line="270" column="20" lean-forward="false" selection-start-line="270" selection-start-column="20" selection-end-line="270" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="618" column="54" lean-forward="false" selection-start-line="618" selection-start-column="54" selection-end-line="618" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -118,10 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>20177</find>
-      <find>2017</find>
-      <find>C</find>
-      <find>Copy</find>
       <find>Copyr</find>
       <find>Copyrigh</find>
       <find>Copyright</find>
@@ -148,6 +144,10 @@
       <find>AirsoftOn</find>
       <find>AirsoftOnlin</find>
       <find>AirsoftOnline</find>
+      <find>la</find>
+      <find>lasertag.</find>
+      <find>lasertag.c</find>
+      <find>lasertag.cc</find>
     </findStrings>
     <replaceStrings>
       <replace>https://drive.google.com/file/d/0B0C-mJopKXmWUVI3OVltVXppUlk/view</replace>
@@ -189,7 +189,6 @@
         <option value="$PROJECT_DIR$/views/samplepointer.html" />
         <option value="$PROJECT_DIR$/views/samples.html" />
         <option value="$PROJECT_DIR$/views/menu.html" />
-        <option value="$PROJECT_DIR$/scripts/services.js" />
         <option value="$PROJECT_DIR$/views/home.html" />
         <option value="$PROJECT_DIR$/views/animate.html" />
         <option value="$PROJECT_DIR$/views/animate2.html" />
@@ -198,6 +197,7 @@
         <option value="$PROJECT_DIR$/views/homepointerstatic.html" />
         <option value="$PROJECT_DIR$/views/static.html" />
         <option value="$PROJECT_DIR$/views/aboutus.html" />
+        <option value="$PROJECT_DIR$/scripts/services.js" />
       </list>
     </option>
   </component>
@@ -208,8 +208,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="30" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -228,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,7 +271,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -482,7 +481,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="30" y="0" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -565,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6273">
           <caret line="369" column="59" lean-forward="false" selection-start-line="369" selection-start-column="59" selection-end-line="369" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,19 +774,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="620" column="37" lean-forward="false" selection-start-line="620" selection-start-column="37" selection-end-line="620" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="125" column="103" lean-forward="false" selection-start-line="125" selection-start-column="103" selection-end-line="125" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="125" column="103" lean-forward="false" selection-start-line="125" selection-start-column="103" selection-end-line="125" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="125" column="13" lean-forward="true" selection-start-line="125" selection-start-column="13" selection-end-line="128" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,7 +835,7 @@
     <entry file="file://$PROJECT_DIR$/views/demodetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="34" />
+          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -918,8 +900,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="258" column="46" lean-forward="false" selection-start-line="258" selection-start-column="46" selection-end-line="258" selection-end-column="46" />
+        <state relative-caret-position="509">
+          <caret line="270" column="20" lean-forward="false" selection-start-line="270" selection-start-column="20" selection-end-line="270" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="618" column="54" lean-forward="false" selection-start-line="618" selection-start-column="54" selection-end-line="618" selection-end-column="54" />
           <folding />
         </state>
       </provider>
