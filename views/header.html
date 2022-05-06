@@ -1,85 +1,163 @@
-
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" ui-sref="app"><img src="images/serge.png" height=30 width=41></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a ui-sref="app">
-                        <span class="glyphicon glyphicon-home"
-                         aria-hidden="true"></span> Home</a></li>
-                    <li><a ui-sref="app.aboutusid">
-                        <span class="glyphicon glyphicon-info-sign"
-                         aria-hidden="true"></span> About</a></li>
-                    <li><a ui-sref="app.demoid">
-                         <span class="glyphicon glyphicon-list-alt"
-                         aria-hidden="true"></span> Glossary</a></li>
-                     <li><a ui-sref="app.contactusid">
-                     <span class="fa fa-envelope-o"></span> Contact</a></li>
-                    <li><a href="https://github.com/surakhchin">
-                        <span class="fa fa-github"></span> GitHub</a></li>
-                </ul>
-            </div>
-
+  <div class="container">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#navbar"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" ui-sref="app"
+        ><img src="images/serge.png" height="30" width="41"
+      /></a>
     </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a ui-sref="app">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+            Home</a
+          >
+        </li>
+        <li>
+          <a ui-sref="app.aboutusid">
+            <span
+              class="glyphicon glyphicon-info-sign"
+              aria-hidden="true"
+            ></span>
+            About</a
+          >
+        </li>
+        <li>
+          <a ui-sref="app.demoid">
+            <span
+              class="glyphicon glyphicon-list-alt"
+              aria-hidden="true"
+            ></span>
+            Glossary</a
+          >
+        </li>
+        <li>
+          <a ui-sref="app.contactusid">
+            <span class="fa fa-envelope-o"></span> Contact</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/surakhchin">
+            <span class="fa fa-github"></span> GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
 <header class="jumbotron" ng-controller="JumboController">
-    <!-- Main component for a primary marketing message or call to action -->
-    <!--<div style="z-index: 0; width: 100%; height:100px; background-color: yellow; border: 1px solid white" ></div>-->
-    <!--<video class="video"> <source src="vid.mp4" type="video/mp4"/> </video>-->
+  <!-- Main component for a primary marketing message or call to action -->
+  <!--<div style="z-index: 0; width: 100%; height:100px; background-color: yellow; border: 1px solid white" ></div>-->
+  <!--<video class="video"> <source src="vid.mp4" type="video/mp4"/> </video>-->
 
-<!--autoplay-->
-    <div class="fullscreen-bg">
+  <!--autoplay-->
+  <div class="fullscreen-bg">
     <video id="video" loop muted autoplay poster="" ng-class="class3">
-
-        <source src="vid.mp4" type="video/mp4">
-
+      <source src="vid.mp4" type="video/mp4" />
     </video>
-</div>
+  </div>
 
-    <div class="container">
-        <div class="col-xs-12" style="margin: -25px">
-                <button style="background-color: transparent; border: transparent; margin-right: -75px; margin-top: -40px" ng-click="toggleMute()" class="btn btn-xs btn-primary pull-right" type="button">
-
-                     {{showMute ? 'Sound On':'Sound Off'}}
-        </button><br>
-            <button id="button2" style="background-color: transparent; border: transparent; margin-right: -75px; margin-top: -40px" ng-click="togglePlay()" class="btn btn-xs btn-primary pull-right" type="button">
-
-                     {{showPlay ? 'Play':'Pause'}}
-        </button>
-        </div>
-        <div  class="row row-header">
-            <div class="col-xs-12 col-sm-8">
-                <h1 style="opacity: .75">Serge Urakhchin</h1>
-                <p style="padding:5px;"></p>
-                <h2 style="opacity: .75">Full Stack Web Developer</h2>
-                <div>
-                <div style="padding: 10px"></div>
-                <div style="opacity: .75"><button style="background-color: transparent" ui-sref="app.demoid">Search</button> for Key Terms.</div>
-                <div style="text-align: center; margin: auto; padding-top: 5px"><a style="color: white" ui-sref="app.skills"><span class="glyphicon glyphicon-menu-down"></span></a></div>
-            </div>
-            </div>
-            <div class="col-xs-12 col-sm-2">
-                <p style="padding:20px;"></p>
-                <a  style="" target="_blank" href="https://surakhchin.github.io/Serge%20Urakhchin%20Resume%202021.pdf"><img style="opacity: .85;display: block; margin-left: auto; margin-right: auto;"
-                               class="img-responsive"  src="images/icon_resume.png" alt="icon-resume"></a>
-            </div>
-            <div class="col-xs-12 col-sm-2">
-            <p style="padding:20px;"></p>
-            <a ui-sref="app"><img  class="img-responsive center-block" src="images/face.png" alt="face" ></a>
-            </div>
-
-        </div>
+  <div class="container">
+    <div class="col-xs-12" style="margin: -25px">
+      <button
+        style="
+          background-color: transparent;
+          border: transparent;
+          margin-right: -75px;
+          margin-top: -40px;
+        "
+        ng-click="toggleMute()"
+        class="btn btn-xs btn-primary pull-right"
+        type="button"
+      >
+        {{showMute ? 'Sound On':'Sound Off'}}</button
+      ><br />
+      <button
+        id="button2"
+        style="
+          background-color: transparent;
+          border: transparent;
+          margin-right: -75px;
+          margin-top: -40px;
+        "
+        ng-click="togglePlay()"
+        class="btn btn-xs btn-primary pull-right"
+        type="button"
+      >
+        {{showPlay ? 'Play':'Pause'}}
+      </button>
     </div>
-    <div style="" class="col-xs-12">
-    <div style="display: inline-block; float: right; margin-top: 30px; margin-right:0;">{{date | date:"MMMM dd'th,' yyyy h':'m a "}}</div>
-</div>
+    <div class="row row-header">
+      <div class="col-xs-12 col-sm-8">
+        <h1 style="opacity: 0.75">Serge Urakhchin</h1>
+        <p style="padding: 5px"></p>
+        <h2 style="opacity: 0.75">Full Stack Web Developer</h2>
+        <div>
+          <div style="padding: 10px"></div>
+          <div style="opacity: 0.75">
+            <button style="background-color: transparent" ui-sref="app.demoid">
+              Search
+            </button>
+            for Key Terms.
+          </div>
+          <div style="text-align: center; margin: auto; padding-top: 5px">
+            <a style="color: white" ui-sref="app.skills"
+              ><span class="glyphicon glyphicon-menu-down"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <p style="padding: 20px"></p>
+        <a
+          style=""
+          target="_blank"
+          href="https://surakhchin.github.io/resume.pdf"
+          ><img
+            style="
+              opacity: 0.85;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            "
+            class="img-responsive"
+            src="images/icon_resume.png"
+            alt="icon-resume"
+        /></a>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <p style="padding: 20px"></p>
+        <a ui-sref="app"
+          ><img
+            class="img-responsive center-block"
+            src="images/face.png"
+            alt="face"
+        /></a>
+      </div>
+    </div>
+  </div>
+  <div style="" class="col-xs-12">
+    <div
+      style="
+        display: inline-block;
+        float: right;
+        margin-top: 30px;
+        margin-right: 0;
+      "
+    >
+      {{date | date:"MMMM dd'th,' yyyy h':'m a "}}
+    </div>
+  </div>
 </header>
